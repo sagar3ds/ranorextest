@@ -27,6 +27,8 @@ namespace PDM
     public partial class PDMRepository : RepoGenBaseFolder
     {
         static PDMRepository instance = new PDMRepository();
+        PDMRepositoryFolders.SOLIDWORKSPDMAdministrationAppFolder _solidworkspdmadministration;
+        PDMRepositoryFolders.AboutSOLIDWORKSPDMAdministrationAppFolder _aboutsolidworkspdmadministration;
 
         /// <summary>
         /// Gets the singleton class instance representing the PDMRepository element repository.
@@ -43,6 +45,8 @@ namespace PDM
         public PDMRepository() 
             : base("PDMRepository", "/", null, 0, false, "501db1bd-223a-4529-884b-698a523e8a82", ".\\RepositoryImages\\PDMRepository501db1bd.rximgres")
         {
+            _solidworkspdmadministration = new PDMRepositoryFolders.SOLIDWORKSPDMAdministrationAppFolder(this);
+            _aboutsolidworkspdmadministration = new PDMRepositoryFolders.AboutSOLIDWORKSPDMAdministrationAppFolder(this);
         }
 
 #region Variables
@@ -60,6 +64,24 @@ namespace PDM
                 return _selfInfo;
             }
         }
+
+        /// <summary>
+        /// The SOLIDWORKSPDMAdministration folder.
+        /// </summary>
+        [RepositoryFolder("7771ce83-d382-4823-affc-7db7bb3f92ac")]
+        public virtual PDMRepositoryFolders.SOLIDWORKSPDMAdministrationAppFolder SOLIDWORKSPDMAdministration
+        {
+            get { return _solidworkspdmadministration; }
+        }
+
+        /// <summary>
+        /// The AboutSOLIDWORKSPDMAdministration folder.
+        /// </summary>
+        [RepositoryFolder("bb52e8b0-78aa-4049-8b4b-550c51fbba88")]
+        public virtual PDMRepositoryFolders.AboutSOLIDWORKSPDMAdministrationAppFolder AboutSOLIDWORKSPDMAdministration
+        {
+            get { return _aboutsolidworkspdmadministration; }
+        }
     }
 
     /// <summary>
@@ -68,6 +90,234 @@ namespace PDM
     [System.CodeDom.Compiler.GeneratedCode("Ranorex", global::Ranorex.Core.Constants.CodeGenVersion)]
     public partial class PDMRepositoryFolders
     {
+        /// <summary>
+        /// The SOLIDWORKSPDMAdministrationAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("7771ce83-d382-4823-affc-7db7bb3f92ac")]
+        public partial class SOLIDWORKSPDMAdministrationAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _aboutInfo;
+
+            /// <summary>
+            /// Creates a new SOLIDWORKSPDMAdministration  folder.
+            /// </summary>
+            public SOLIDWORKSPDMAdministrationAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("SOLIDWORKSPDMAdministration", "/form[@title>'SOLIDWORKS PDM Administra']", parentFolder, 30000, null, true, "7771ce83-d382-4823-affc-7db7bb3f92ac", "")
+            {
+                _aboutInfo = new RepoItemInfo(this, "About", "?/?/toolbar[@controlid='59392']/button[@text='About']", ".//button[@text='About']", 30000, null, "0bbefee1-6dd6-4183-9ac4-dad83df1e2d5");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("7771ce83-d382-4823-affc-7db7bb3f92ac")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("7771ce83-d382-4823-affc-7db7bb3f92ac")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The About item.
+            /// </summary>
+            [RepositoryItem("0bbefee1-6dd6-4183-9ac4-dad83df1e2d5")]
+            public virtual Ranorex.Button About
+            {
+                get
+                {
+                    return _aboutInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The About item info.
+            /// </summary>
+            [RepositoryItemInfo("0bbefee1-6dd6-4183-9ac4-dad83df1e2d5")]
+            public virtual RepoItemInfo AboutInfo
+            {
+                get
+                {
+                    return _aboutInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The AboutSOLIDWORKSPDMAdministrationAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("bb52e8b0-78aa-4049-8b4b-550c51fbba88")]
+        public partial class AboutSOLIDWORKSPDMAdministrationAppFolder : RepoGenBaseFolder
+        {
+            AboutSOLIDWORKSPDMAdministrationInfoClass _aboutsolidworkspdmadministrationInfo;
+            ButtonOKInfoClass _buttonokInfo;
+
+            /// <summary>
+            /// Creates a new AboutSOLIDWORKSPDMAdministration  folder.
+            /// </summary>
+            public AboutSOLIDWORKSPDMAdministrationAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("AboutSOLIDWORKSPDMAdministration", "/form[@title>'About SOLIDWORKS PDM Admi']", parentFolder, 30000, null, true, "bb52e8b0-78aa-4049-8b4b-550c51fbba88", "")
+            {
+                _aboutsolidworkspdmadministrationInfo = new AboutSOLIDWORKSPDMAdministrationInfoClass(this);
+                _buttonokInfo = new ButtonOKInfoClass(this);
+            }
+
+            /// <summary>
+            /// The AboutSOLIDWORKSPDMAdministrationInfoClass folder.
+            /// </summary>
+            [RepositoryItemInfo("fc4eb983-312b-450b-8f6f-250e8a697084")]
+            public class AboutSOLIDWORKSPDMAdministrationInfoClass : RepoItemInfo
+            {
+                /// <summary>
+                /// AboutSOLIDWORKSPDMAdministrationInfoClass class constructor.
+                /// </summary>
+                public AboutSOLIDWORKSPDMAdministrationInfoClass(RepoGenBaseFolder parentFolder)
+                    : base(parentFolder, "AboutSOLIDWORKSPDMAdministration", "form[@name>'About SOLIDWORKS PDM Admi']", 30000, null, "fc4eb983-312b-450b-8f6f-250e8a697084")
+                { }
+
+                /// <summary>
+                /// Gets the Screenshot1 item image.
+                /// </summary>
+                /// <returns>The Screenshot1 image.</returns>
+                [RepositoryImage("c2540ca1-87f3-4dde-bca8-23bfcf2e528c")]
+                public CompressedImage GetScreenshot1()
+                {
+                    return GetImage("c2540ca1-87f3-4dde-bca8-23bfcf2e528c");
+                }
+
+                /// <summary>
+                /// Gets the Screenshot1 item image.
+                /// </summary>
+                /// <param name="cropRect">The bounds of the sub-image to return.</param>
+                /// <returns>The cropped image.</returns>
+                [RepositoryImage("c2540ca1-87f3-4dde-bca8-23bfcf2e528c")]
+                public CompressedImage GetScreenshot1(System.Drawing.Rectangle cropRect)
+                {
+                    return GetImage("c2540ca1-87f3-4dde-bca8-23bfcf2e528c", cropRect);
+                }
+            }
+
+            /// <summary>
+            /// The ButtonOKInfoClass folder.
+            /// </summary>
+            [RepositoryItemInfo("fe6614cb-82eb-430e-9a90-ab0bc69198ca")]
+            public class ButtonOKInfoClass : RepoItemInfo
+            {
+                /// <summary>
+                /// ButtonOKInfoClass class constructor.
+                /// </summary>
+                public ButtonOKInfoClass(RepoGenBaseFolder parentFolder)
+                    : base(parentFolder, "ButtonOK", "button[@text='OK']", 30000, null, "fe6614cb-82eb-430e-9a90-ab0bc69198ca")
+                { }
+
+                /// <summary>
+                /// Gets the Screenshot1 item image.
+                /// </summary>
+                /// <returns>The Screenshot1 image.</returns>
+                [RepositoryImage("c710335e-0184-470b-bff5-b4e52483719c")]
+                public CompressedImage GetScreenshot1()
+                {
+                    return GetImage("c710335e-0184-470b-bff5-b4e52483719c");
+                }
+
+                /// <summary>
+                /// Gets the Screenshot1 item image.
+                /// </summary>
+                /// <param name="cropRect">The bounds of the sub-image to return.</param>
+                /// <returns>The cropped image.</returns>
+                [RepositoryImage("c710335e-0184-470b-bff5-b4e52483719c")]
+                public CompressedImage GetScreenshot1(System.Drawing.Rectangle cropRect)
+                {
+                    return GetImage("c710335e-0184-470b-bff5-b4e52483719c", cropRect);
+                }
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("bb52e8b0-78aa-4049-8b4b-550c51fbba88")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("bb52e8b0-78aa-4049-8b4b-550c51fbba88")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The AboutSOLIDWORKSPDMAdministration item.
+            /// </summary>
+            [RepositoryItem("fc4eb983-312b-450b-8f6f-250e8a697084")]
+            public virtual Ranorex.Form AboutSOLIDWORKSPDMAdministration
+            {
+                get
+                {
+                    return _aboutsolidworkspdmadministrationInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The AboutSOLIDWORKSPDMAdministration item info.
+            /// </summary>
+            [RepositoryItemInfo("fc4eb983-312b-450b-8f6f-250e8a697084")]
+            public virtual AboutSOLIDWORKSPDMAdministrationInfoClass AboutSOLIDWORKSPDMAdministrationInfo
+            {
+                get
+                {
+                    return _aboutsolidworkspdmadministrationInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ButtonOK item.
+            /// </summary>
+            [RepositoryItem("fe6614cb-82eb-430e-9a90-ab0bc69198ca")]
+            public virtual Ranorex.Button ButtonOK
+            {
+                get
+                {
+                    return _buttonokInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ButtonOK item info.
+            /// </summary>
+            [RepositoryItemInfo("fe6614cb-82eb-430e-9a90-ab0bc69198ca")]
+            public virtual ButtonOKInfoClass ButtonOKInfo
+            {
+                get
+                {
+                    return _buttonokInfo;
+                }
+            }
+        }
+
     }
 #pragma warning restore 0436
 }
