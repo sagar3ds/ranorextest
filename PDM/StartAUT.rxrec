@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="c856126b-419f-4bf7-8dd0-6d51ae52e02c"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartAUT"
+	namespace="PDM">
+	</codegen>
+	<variables>
+		<var
+		id="6daec31a-7b85-48eb-ad7a-b18d54ccfd8c"
+		name="StartAutProcessIDVar">
+		</var>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ReturnVariable"
+				variable="StartAutProcessIDVar">
+				</binding>
+			</bindings>
+			<filename>
+				C:\Program Files\SOLIDWORKS PDM\ConisioAdmin.exe
+			</filename>
+			<args>
+			</args>
+		</runapprecorditem>
+	</recorditems>
+	<repository
+	id="62239bf6-d6c5-4c59-a468-91b62ca8d22a"
+	name="PDMRepository"
+	relativepath="PDMRepository.rxrep">
+		<codegen
+		classname="PDMRepository"
+		namespace="PDM">
+		</codegen>
+		<rootfolder
+		id="501db1bd-223a-4529-884b-698a523e8a82"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

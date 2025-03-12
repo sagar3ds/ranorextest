@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="f44a6461-c5af-4ad1-b6e5-e233d207a697"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseAUT"
+	namespace="PDM">
+	</codegen>
+	<variables>
+		<var
+		id="f7334b6c-396b-4f81-91e7-2d8c53745f05"
+		name="CloseAutProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="500ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="0c3800e6-661c-4d00-956b-047fa7bf1e9f">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="CloseAutProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="62239bf6-d6c5-4c59-a468-91b62ca8d22a"
+	name="PDMRepository"
+	relativepath="PDMRepository.rxrep">
+		<codegen
+		classname="PDMRepository"
+		namespace="PDM">
+		</codegen>
+		<rootfolder
+		id="501db1bd-223a-4529-884b-698a523e8a82"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
