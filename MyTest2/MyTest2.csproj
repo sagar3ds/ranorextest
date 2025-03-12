@@ -158,6 +158,12 @@
       <UserCode>true</UserCode>
       <id>7a299149-a377-421c-a36c-23c9891cf680</id>
     </Compile>
+    <Compile Include="Repository1.cs">
+      <BoundTo>f6a4fd65-280c-4047-a671-8a5d589c7257</BoundTo>
+      <DependentUpon>Repository1.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>a916065d-a74f-488d-83dc-4ef330b47643</id>
+    </Compile>
     <Compile Include="StartAUT.cs">
       <BoundTo>cf0f845b-47f6-4a9a-8097-f41cba322732</BoundTo>
       <DependentUpon>StartAUT.rxrec</DependentUpon>
@@ -195,6 +201,17 @@
       <BoundTo>34285d7a-a758-4d60-a3e5-72cb84cb45f9</BoundTo>
       <id>fa3d44a5-bf5c-47d9-97d0-8ad372562239</id>
       <recordtableid>107b063c-ae3d-4d9b-a6e2-bc9de8b44ae5</recordtableid>
+    </None>
+    <None Include="Repository1.rximg">
+      <BoundTo>f6a4fd65-280c-4047-a671-8a5d589c7257</BoundTo>
+      <DependentUpon>Repository1.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>b3beb57b-a37b-4af6-81a4-2ad6f1c2bc53</id>
+    </None>
+    <None Include="Repository1.rxrep">
+      <id>f6a4fd65-280c-4047-a671-8a5d589c7257</id>
+      <repoid>68d414a7-650f-443a-ae30-b5a90f0dcc55</repoid>
+      <reporootid>d37eb0fd-dc42-4b5d-9986-88b005782159</reporootid>
     </None>
     <None Include="StartAUT.rxrec">
       <BoundTo>34285d7a-a758-4d60-a3e5-72cb84cb45f9</BoundTo>
