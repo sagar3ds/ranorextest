@@ -73,51 +73,34 @@ namespace PDM
         [System.CodeDom.Compiler.GeneratedCode("Ranorex", global::Ranorex.Core.Constants.CodeGenVersion)]
         void ITestModule.Run()
         {
-            Mouse.DefaultMoveTime = 300;
+            Mouse.DefaultMoveTime = 0;
             Keyboard.DefaultKeyPressTime = 20;
-            Delay.SpeedFactor = 1.00;
+            Delay.SpeedFactor = 0.00;
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SOLIDWORKSPDMAdministration.About' at 13;10.", repo.SOLIDWORKSPDMAdministration.AboutInfo, new RecordItemIndex(0));
-            repo.SOLIDWORKSPDMAdministration.About.Click("13;10");
-            Delay.Milliseconds(0);
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Explorer.Icon' at 8;13.", repo.Explorer.IconInfo, new RecordItemIndex(0));
+            repo.Explorer.Icon.Click("8;13");
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating ContainsImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=559,Height=372}) on item 'AboutSOLIDWORKSPDMAdministration.AboutSOLIDWORKSPDMAdministration'.", repo.AboutSOLIDWORKSPDMAdministration.AboutSOLIDWORKSPDMAdministrationInfo, new RecordItemIndex(1));
-            Validate.ContainsImage(repo.AboutSOLIDWORKSPDMAdministration.AboutSOLIDWORKSPDMAdministrationInfo, AboutSOLIDWORKSPDMAdministration_Screenshot1, AboutSOLIDWORKSPDMAdministration_Screenshot1_Options);
-            Delay.Milliseconds(100);
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left DoubleClick item 'SOLIDWORKSPDMAdministration.KeywordTest' at 28;5.", repo.SOLIDWORKSPDMAdministration.KeywordTestInfo, new RecordItemIndex(1));
+            repo.SOLIDWORKSPDMAdministration.KeywordTest.DoubleClick("28;5");
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'AboutSOLIDWORKSPDMAdministration.ButtonOK' at 4;4.", repo.AboutSOLIDWORKSPDMAdministration.ButtonOKInfo, new RecordItemIndex(2));
-            repo.AboutSOLIDWORKSPDMAdministration.ButtonOK.Click(new Location(ButtonOK_Screenshot1, "4;4", ButtonOK_Screenshot1_Options));
-            Delay.Milliseconds(0);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{F15}' with focus on 'SOLIDWORKSPDMLoginKeywordTest'.", repo.SOLIDWORKSPDMLoginKeywordTest.SelfInfo, new RecordItemIndex(2));
+            repo.SOLIDWORKSPDMLoginKeywordTest.Self.EnsureVisible();
+            Keyboard.Press("{F15}");
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SOLIDWORKSPDMLoginKeywordTest' at 416;238.", repo.SOLIDWORKSPDMLoginKeywordTest.SelfInfo, new RecordItemIndex(3));
+            repo.SOLIDWORKSPDMLoginKeywordTest.Self.Click("416;238");
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SOLIDWORKSPDMAdministration.About' at 15;10.", repo.SOLIDWORKSPDMAdministration.AboutInfo, new RecordItemIndex(4));
+            repo.SOLIDWORKSPDMAdministration.About.Click("15;10");
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'AboutSOLIDWORKSPDMAdministration.ButtonOK' at 27;19.", repo.AboutSOLIDWORKSPDMAdministration.ButtonOKInfo, new RecordItemIndex(5));
+            repo.AboutSOLIDWORKSPDMAdministration.ButtonOK.Click("27;19");
             
         }
 
 #region Image Feature Data
-        /// <summary>
-        /// DO NOT REFERENCE THIS CODE  - auto generated
-        /// </summary>
-        CompressedImage AboutSOLIDWORKSPDMAdministration_Screenshot1
-        { get { return repo.AboutSOLIDWORKSPDMAdministration.AboutSOLIDWORKSPDMAdministrationInfo.GetScreenshot1(new Rectangle(0, 0, 559, 372)); } }
-
-        /// <summary>
-        /// DO NOT REFERENCE THIS CODE  - auto generated
-        /// </summary>
-        Imaging.FindOptions AboutSOLIDWORKSPDMAdministration_Screenshot1_Options
-        { get { return Imaging.FindOptions.Default; } }
-
-        /// <summary>
-        /// DO NOT REFERENCE THIS CODE  - auto generated
-        /// </summary>
-        CompressedImage ButtonOK_Screenshot1
-        { get { return repo.AboutSOLIDWORKSPDMAdministration.ButtonOKInfo.GetScreenshot1(new Rectangle(23, 8, 22, 10)); } }
-
-        /// <summary>
-        /// DO NOT REFERENCE THIS CODE  - auto generated
-        /// </summary>
-        Imaging.FindOptions ButtonOK_Screenshot1_Options
-        { get { return Imaging.FindOptions.Default; } }
-
 #endregion
     }
 #pragma warning restore 0436
