@@ -16,23 +16,23 @@ using Ranorex.Core;
 using Ranorex.Core.Repository;
 using Ranorex.Core.Testing;
 
-namespace MyTest2
+namespace pdm_basics
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    /// The class representing the MyTest2Repository element repository.
+    /// The class representing the pdm_basicsRepository element repository.
     /// </summary>
     [System.CodeDom.Compiler.GeneratedCode("Ranorex", global::Ranorex.Core.Constants.CodeGenVersion)]
-    [RepositoryFolder("4af26312-2efa-492a-8569-8f4c350abc28")]
-    public partial class MyTest2Repository : RepoGenBaseFolder
+    [RepositoryFolder("958529c0-63a2-4b5d-93ca-9fa86f1ca854")]
+    public partial class pdm_basicsRepository : RepoGenBaseFolder
     {
-        static MyTest2Repository instance = new MyTest2Repository();
+        static pdm_basicsRepository instance = new pdm_basicsRepository();
 
         /// <summary>
-        /// Gets the singleton class instance representing the MyTest2Repository element repository.
+        /// Gets the singleton class instance representing the pdm_basicsRepository element repository.
         /// </summary>
-        [RepositoryFolder("4af26312-2efa-492a-8569-8f4c350abc28")]
-        public static MyTest2Repository Instance
+        [RepositoryFolder("958529c0-63a2-4b5d-93ca-9fa86f1ca854")]
+        public static pdm_basicsRepository Instance
         {
             get { return instance; }
         }
@@ -40,8 +40,8 @@ namespace MyTest2
         /// <summary>
         /// Repository class constructor.
         /// </summary>
-        public MyTest2Repository() 
-            : base("MyTest2Repository", "/", null, 0, false, "4af26312-2efa-492a-8569-8f4c350abc28", ".\\RepositoryImages\\MyTest2Repository4af26312.rximgres")
+        public pdm_basicsRepository() 
+            : base("pdm_basicsRepository", "/", null, 0, false, "958529c0-63a2-4b5d-93ca-9fa86f1ca854", ".\\RepositoryImages\\pdm_basicsRepository958529c0.rximgres")
         {
         }
 
@@ -52,7 +52,7 @@ namespace MyTest2
         /// <summary>
         /// The Self item info.
         /// </summary>
-        [RepositoryItemInfo("4af26312-2efa-492a-8569-8f4c350abc28")]
+        [RepositoryItemInfo("958529c0-63a2-4b5d-93ca-9fa86f1ca854")]
         public virtual RepoItemInfo SelfInfo
         {
             get
@@ -66,7 +66,7 @@ namespace MyTest2
     /// Inner folder classes.
     /// </summary>
     [System.CodeDom.Compiler.GeneratedCode("Ranorex", global::Ranorex.Core.Constants.CodeGenVersion)]
-    public partial class MyTest2RepositoryFolders
+    public partial class pdm_basicsRepositoryFolders
     {
     }
 #pragma warning restore 0436

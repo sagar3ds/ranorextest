@@ -1,8 +1,8 @@
 ﻿/*
  * Created by Ranorex
  * User: SDH16
- * Date: 3/12/2025
- * Time: 1:31 PM
+ * Date: 3/13/2025
+ * Time: 3:02 PM
  * 
  * To change this template use Tools > Options > Coding > Edit standard headers.
  */
@@ -19,7 +19,7 @@ using Ranorex.Core;
 using Ranorex.Core.Reporting;
 using Ranorex.Core.Testing;
 
-namespace PDM
+namespace pdm_basics
 {
     class Program
     {

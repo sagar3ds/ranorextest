@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <recordtable
 embeddedrepository="False"
-id="107b063c-ae3d-4d9b-a6e2-bc9de8b44ae5"
-mode="Desktop">
+id="5f9e79e8-c565-45d6-b541-0588acbe7646"
+mode="Global">
 	<repeatcount>
 		1
 	</repeatcount>
@@ -20,22 +20,22 @@ mode="Desktop">
 	</useDefaultItemLogging>
 	<codegen
 	classname="Recording1"
-	namespace="MyTest2">
+	namespace="pdm_basics">
 	</codegen>
 	<variables>
 	</variables>
 	<recorditems>
 	</recorditems>
 	<repository
-	id="29cc061f-a03c-4b77-9ef5-777a75b7a962"
-	name="MyTest2Repository"
-	relativepath="MyTest2Repository.rxrep">
+	id="1f455015-23f6-4779-b5c4-91374b20da83"
+	name="pdm_basicsRepository"
+	relativepath="pdm_basicsRepository.rxrep">
 		<codegen
-		classname="MyTest2Repository"
-		namespace="MyTest2">
+		classname="pdm_basicsRepository"
+		namespace="pdm_basics">
 		</codegen>
 		<rootfolder
-		id="4af26312-2efa-492a-8569-8f4c350abc28"
+		id="958529c0-63a2-4b5d-93ca-9fa86f1ca854"
 		name="_rootdummy_">
 		</rootfolder>
 	</repository>

@@ -20,51 +20,38 @@ using Ranorex.Core;
 using Ranorex.Core.Testing;
 using Ranorex.Core.Repository;
 
-namespace PDM
+namespace pdm_basics
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The StartAUT recording.
+    ///The Recording1 recording.
     /// </summary>
-    [TestModule("c856126b-419f-4bf7-8dd0-6d51ae52e02c", ModuleType.Recording, 1)]
-    public partial class StartAUT : ITestModule
+    [TestModule("5f9e79e8-c565-45d6-b541-0588acbe7646", ModuleType.Recording, 1)]
+    public partial class Recording1 : ITestModule
     {
         /// <summary>
-        /// Holds an instance of the PDMRepository repository.
+        /// Holds an instance of the pdm_basicsRepository repository.
         /// </summary>
-        public static PDMRepository repo = PDMRepository.Instance;
+        public static pdm_basicsRepository repo = pdm_basicsRepository.Instance;
 
-        static StartAUT instance = new StartAUT();
+        static Recording1 instance = new Recording1();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public StartAUT()
+        public Recording1()
         {
-            StartAutProcessIDVar = "";
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static StartAUT Instance
+        public static Recording1 Instance
         {
             get { return instance; }
         }
 
 #region Variables
-
-        string _StartAutProcessIDVar;
-
-        /// <summary>
-        /// Gets or sets the value of variable StartAutProcessIDVar.
-        /// </summary>
-        [TestVariable("6daec31a-7b85-48eb-ad7a-b18d54ccfd8c")]
-        public string StartAutProcessIDVar
-        {
-            get { return _StartAutProcessIDVar; }
-            set { _StartAutProcessIDVar = value; }
-        }
 
 #endregion
 
@@ -92,10 +79,6 @@ namespace PDM
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Application", "Run application 'C:\\Program Files\\SOLIDWORKS PDM\\ConisioAdmin.exe' in normal mode. Return value bound to $StartAutProcessIDVar.", new RecordItemIndex(0));
-            StartAutProcessIDVar = ValueConverter.ToString(Host.Local.RunApplication("C:\\Program Files\\SOLIDWORKS PDM\\ConisioAdmin.exe", "", "", false));
-            Delay.Milliseconds(0);
-            
         }
 
 #region Image Feature Data

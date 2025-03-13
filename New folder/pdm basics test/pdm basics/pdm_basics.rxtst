@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<testsuitedoc>
+    <testsuiteentryhierarchy>
+        <flatlistofchildren>
+            <testcase
+            name="TestCase"
+            id="5f96cff1-2fe8-4f59-b130-58e504762e0a">
+            </testcase>
+            <testmodule
+            name="Recording1"
+            id="c49db62a-f103-4303-a26a-24e221ac837d"
+            ref="5f9e79e8-c565-45d6-b541-0588acbe7646"
+            type="Recording"/>
+            <testcase
+            name="pdm basics"
+            id="5dcac6bd-7758-42c9-8522-62780829d1d7"
+            reportlevel="Info;20">
+            </testcase>
+            <testsuite
+            ReportTime="RelativeToTestSuiteStartTime"
+            TracingScreenshotMode="Foreground"
+            TracingScreenshotQuality="40"
+            VideoBitrate="2000"
+            VideoFps="15"
+            VideoRecordingMode="Off"
+            VideoSource="Auto"
+            enabletracingscreenshots="True"
+            id="2e7cabc6-b6c3-4b26-afcb-f75502b7e57d"
+            junitreport="False"
+            name="pdm basics"
+            reportcompress="False"
+            reportdirectoryname="Reports"
+            reportenabled="True"
+            reportfilename="%S_%Y%M%D_%T.rxlog"
+            reporttemplatefolder=""
+            reportwriteinterval="30000ms"
+            showinvisiblechars="True">
+            </testsuite>
+        </flatlistofchildren>
+        <childhierarchy>
+            <testsuite
+            name="pdm basics"
+            id="2e7cabc6-b6c3-4b26-afcb-f75502b7e57d">
+                <testcase
+                name="pdm basics"
+                id="5dcac6bd-7758-42c9-8522-62780829d1d7">
+                    <testcase
+                    name="TestCase"
+                    id="5f96cff1-2fe8-4f59-b130-58e504762e0a">
+                        <testmodule
+                        name="Recording1"
+                        id="c49db62a-f103-4303-a26a-24e221ac837d"/>
+                    </testcase>
+                </testcase>
+            </testsuite>
+        </childhierarchy>
+    </testsuiteentryhierarchy>
+    <datasources/>
+    <testconfigurations
+    default="TestRun">
+        <testconfiguration
+        name="TestRun">
+            <testcase
+            id="5f96cff1-2fe8-4f59-b130-58e504762e0a"/>
+            <testcase
+            id="5dcac6bd-7758-42c9-8522-62780829d1d7"/>
+        </testconfiguration>
+    </testconfigurations>
+    <references/>
+</testsuitedoc>

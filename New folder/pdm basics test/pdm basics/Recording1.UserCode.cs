@@ -20,7 +20,7 @@ using Ranorex.Core;
 using Ranorex.Core.Repository;
 using Ranorex.Core.Testing;
 
-namespace MyTest2
+namespace pdm_basics
 {
     public partial class Recording1
     {

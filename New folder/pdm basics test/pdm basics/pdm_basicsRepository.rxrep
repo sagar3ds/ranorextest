@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <repository
-name="MyTest2Repository"
-id="29cc061f-a03c-4b77-9ef5-777a75b7a962">
+name="pdm basicsRepository"
+id="1f455015-23f6-4779-b5c4-91374b20da83">
   <codegen
-  classname="MyTest2Repository"
-  namespace="MyTest2"/>
+  classname="pdm basicsRepository"
+  namespace="pdm_basics"/>
   <rootfolder
   name="Root"
-  id="4af26312-2efa-492a-8569-8f4c350abc28"
+  id="958529c0-63a2-4b5d-93ca-9fa86f1ca854"
   searchtimeout="30000ms"
   capname="unknown"
   isrooted="True"
   usecache="True">
-      <basepath/>
+    <basepath/>
   </rootfolder>
   <variables/>
 </repository>
