@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="54816e45-4ec5-4e8b-ab70-6a08422e23b6"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseAUT"
+	namespace="Admin">
+	</codegen>
+	<variables>
+		<var
+		id="2757d4e9-2d4e-4ff2-afcf-974aabb2dfb4"
+		name="CloseAutProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="500ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="d611f772-a904-476c-8a01-e604a4d551c5">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="CloseAutProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="19d258fb-9b26-4657-8d4e-3a89bbb92de4"
+	name="AdminRepository"
+	relativepath="AdminRepository.rxrep">
+		<codegen
+		classname="AdminRepository"
+		namespace="Admin">
+		</codegen>
+		<rootfolder
+		id="66e76baa-0ea2-4b24-856e-61b42d1fb22b"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
