@@ -204,6 +204,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Admin.cd">
+      <id>b93751be-adba-4944-b19f-8a1ba4141800</id>
+    </Content>
     <Content Include="Admin.rxtmg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <id>1e9bd63c-0f0d-4492-ace1-fbc5d29942f4</id>

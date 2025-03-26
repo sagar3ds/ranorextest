@@ -264,8 +264,8 @@ namespace Admin
             repo.SOLIDWORKSPDMAdministrationFileVau.Maximize.Click("19;8");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Checked='False') on item 'SOLIDWORKSPDMAdministrationFileVau.Form65280.CheckBoxGet'.", repo.SOLIDWORKSPDMAdministrationFileVau.Form65280.CheckBoxGetInfo, new RecordItemIndex(41));
-            Validate.AttributeEqual(repo.SOLIDWORKSPDMAdministrationFileVau.Form65280.CheckBoxGetInfo, "Checked", "False");
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'SOLIDWORKSPDMAdministrationFileVau.Form65280.CheckBoxGet'.", repo.SOLIDWORKSPDMAdministrationFileVau.Form65280.CheckBoxGetInfo, new RecordItemIndex(41));
+            Validate.Exists(repo.SOLIDWORKSPDMAdministrationFileVau.Form65280.CheckBoxGetInfo);
             Delay.Milliseconds(100);
             
             Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'SOLIDWORKSPDMAdministrationFileVau.Form65280.CheckBoxGet'.", repo.SOLIDWORKSPDMAdministrationFileVau.Form65280.CheckBoxGetInfo, new RecordItemIndex(42));
@@ -274,6 +274,154 @@ namespace Admin
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SOLIDWORKSPDMAdministrationFileVau.Form65280.CheckBoxGet' at 5;9.", repo.SOLIDWORKSPDMAdministrationFileVau.Form65280.CheckBoxGetInfo, new RecordItemIndex(43));
             repo.SOLIDWORKSPDMAdministrationFileVau.Form65280.CheckBoxGet.Click("5;9");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Checked='False') on item 'SOLIDWORKSPDMAdministrationFileVau.Form65280.IncludeRefreshCacheDuringLogIn'.", repo.SOLIDWORKSPDMAdministrationFileVau.Form65280.IncludeRefreshCacheDuringLogInInfo, new RecordItemIndex(44));
+            Validate.AttributeEqual(repo.SOLIDWORKSPDMAdministrationFileVau.Form65280.IncludeRefreshCacheDuringLogInInfo, "Checked", "False");
+            Delay.Milliseconds(100);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SOLIDWORKSPDMAdministrationFileVau.Form65280.IncludeRefreshCacheDuringLogIn' at 7;6.", repo.SOLIDWORKSPDMAdministrationFileVau.Form65280.IncludeRefreshCacheDuringLogInInfo, new RecordItemIndex(45));
+            repo.SOLIDWORKSPDMAdministrationFileVau.Form65280.IncludeRefreshCacheDuringLogIn.Click("7;6");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SOLIDWORKSPDMAdministrationFileVau.Form65280.CheckBoxGet' at 7;5.", repo.SOLIDWORKSPDMAdministrationFileVau.Form65280.CheckBoxGetInfo, new RecordItemIndex(46));
+            repo.SOLIDWORKSPDMAdministrationFileVau.Form65280.CheckBoxGet.Click("7;5");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SOLIDWORKSPDMAdministrationFileVau.Form65280.LogInAndLogOut' at 5;10.", repo.SOLIDWORKSPDMAdministrationFileVau.Form65280.LogInAndLogOutInfo, new RecordItemIndex(47));
+            repo.SOLIDWORKSPDMAdministrationFileVau.Form65280.LogInAndLogOut.Click("5;10");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SOLIDWORKSPDMAdministrationFileVau.Form65280.LogInAndLogOut' at 5;10.", repo.SOLIDWORKSPDMAdministrationFileVau.Form65280.LogInAndLogOutInfo, new RecordItemIndex(48));
+            repo.SOLIDWORKSPDMAdministrationFileVau.Form65280.LogInAndLogOut.Click("5;10");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SOLIDWORKSPDMAdministration.Tree10011.KeywordTestAdmin' at 74;11.", repo.SOLIDWORKSPDMAdministration.Tree10011.KeywordTestAdminInfo, new RecordItemIndex(49));
+            repo.SOLIDWORKSPDMAdministration.Tree10011.KeywordTestAdmin.Click("74;11");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Right Click item 'SOLIDWORKSPDMAdministration.Tree10011.KeywordTestAdmin' at 74;11.", repo.SOLIDWORKSPDMAdministration.Tree10011.KeywordTestAdminInfo, new RecordItemIndex(50));
+            repo.SOLIDWORKSPDMAdministration.Tree10011.KeywordTestAdmin.Click(System.Windows.Forms.MouseButtons.Right, "74;11");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ConisioAdmin.Refresh' at 41;13.", repo.ConisioAdmin.RefreshInfo, new RecordItemIndex(51));
+            repo.ConisioAdmin.Refresh.Click("41;13");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Down') on item 'SOLIDWORKSPDMAdministration.Tree10011.Down'.", repo.SOLIDWORKSPDMAdministration.Tree10011.DownInfo, new RecordItemIndex(52));
+            Validate.AttributeEqual(repo.SOLIDWORKSPDMAdministration.Tree10011.DownInfo, "Text", "Down");
+            Delay.Milliseconds(100);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Down item 'SOLIDWORKSPDMAdministration.Tree10011.Down' at 5;11.", repo.SOLIDWORKSPDMAdministration.Tree10011.DownInfo, new RecordItemIndex(53));
+            repo.SOLIDWORKSPDMAdministration.Tree10011.Down.MoveTo("5;11");
+            repo.SOLIDWORKSPDMAdministration.Tree10011.Down.MouseDown(System.Windows.Forms.MouseButtons.Left);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SOLIDWORKSPDMAdministrationFileVau.Tree1001' at 69;366.", repo.SOLIDWORKSPDMAdministrationFileVau.Tree1001Info, new RecordItemIndex(54));
+            repo.SOLIDWORKSPDMAdministrationFileVau.Tree1001.Click("69;366");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SOLIDWORKSPDMAdministrationFileVau.Columns' at 7;10.", repo.SOLIDWORKSPDMAdministrationFileVau.ColumnsInfo, new RecordItemIndex(55));
+            repo.SOLIDWORKSPDMAdministrationFileVau.Columns.Click("7;10");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Right Click item 'SOLIDWORKSPDMAdministrationFileVau.Columns' at 13;10.", repo.SOLIDWORKSPDMAdministrationFileVau.ColumnsInfo, new RecordItemIndex(56));
+            repo.SOLIDWORKSPDMAdministrationFileVau.Columns.Click(System.Windows.Forms.MouseButtons.Right, "13;10");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ContextMenuHash32768.None' at 19;9.", repo.ContextMenuHash32768.NoneInfo, new RecordItemIndex(57));
+            repo.ContextMenuHash32768.None.Click("19;9");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'Test' with focus on 'CustomizableColumnsNewView'.", repo.CustomizableColumnsNewView.SelfInfo, new RecordItemIndex(58));
+            repo.CustomizableColumnsNewView.Self.EnsureVisible();
+            Keyboard.Press("Test");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'CustomizableColumnsNewView.ButtonAdd' at 66;5.", repo.CustomizableColumnsNewView.ButtonAddInfo, new RecordItemIndex(59));
+            repo.CustomizableColumnsNewView.ButtonAdd.Click("66;5");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'CustomizableColumnsNewView.ButtonAdd' at 54;2.", repo.CustomizableColumnsNewView.ButtonAddInfo, new RecordItemIndex(60));
+            repo.CustomizableColumnsNewView.ButtonAdd.Click("54;2");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'CustomizableColumnsNewView.CellArchiveServerPath' at 107;15.", repo.CustomizableColumnsNewView.CellArchiveServerPathInfo, new RecordItemIndex(61));
+            repo.CustomizableColumnsNewView.CellArchiveServerPath.Click("107;15");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'CustomizableColumnsNewView.CellArchiveServerPath' at 267;12.", repo.CustomizableColumnsNewView.CellArchiveServerPathInfo, new RecordItemIndex(62));
+            repo.CustomizableColumnsNewView.CellArchiveServerPath.Click("267;12");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{F15}' with focus on 'CustomizableColumnsNewView'.", repo.CustomizableColumnsNewView.SelfInfo, new RecordItemIndex(63));
+            repo.CustomizableColumnsNewView.Self.EnsureVisible();
+            Keyboard.Press("{F15}");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'CustomizableColumnsNewView.Delete' at 71;9.", repo.CustomizableColumnsNewView.DeleteInfo, new RecordItemIndex(64));
+            repo.CustomizableColumnsNewView.Delete.Click("71;9");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'CustomizableColumnsNewView.Permissions' at 24;12.", repo.CustomizableColumnsNewView.PermissionsInfo, new RecordItemIndex(65));
+            repo.CustomizableColumnsNewView.Permissions.Click("24;12");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'CustomizableColumnsNewView.Table9037.View' at 14;14.", repo.CustomizableColumnsNewView.Table9037.ViewInfo, new RecordItemIndex(66));
+            repo.CustomizableColumnsNewView.Table9037.View.Click("14;14");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'CustomizableColumnsNewView.Table9037.SomeCell' at 9;8.", repo.CustomizableColumnsNewView.Table9037.SomeCellInfo, new RecordItemIndex(67));
+            repo.CustomizableColumnsNewView.Table9037.SomeCell.Click("9;8");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'CustomizableColumnsNewView.Table9037.SomeCell1' at 4;2.", repo.CustomizableColumnsNewView.Table9037.SomeCell1Info, new RecordItemIndex(68));
+            repo.CustomizableColumnsNewView.Table9037.SomeCell1.Click("4;2");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{F15}' with focus on 'CustomizableColumnsTest'.", repo.CustomizableColumnsTest.SelfInfo, new RecordItemIndex(69));
+            repo.CustomizableColumnsTest.Self.EnsureVisible();
+            Keyboard.Press("{F15}");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'CustomizableColumnsTest.TitleBar' at 265;10.", repo.CustomizableColumnsTest.TitleBarInfo, new RecordItemIndex(70));
+            repo.CustomizableColumnsTest.TitleBar.Click("265;10");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'CustomizableColumnsTest.TabPageList9025'.", repo.CustomizableColumnsTest.TabPageList9025Info, new RecordItemIndex(71));
+            Validate.Exists(repo.CustomizableColumnsTest.TabPageList9025Info);
+            Delay.Milliseconds(100);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Right Click item 'CustomizableColumnsTest.ButtonOK' at 29;18.", repo.CustomizableColumnsTest.ButtonOKInfo, new RecordItemIndex(72));
+            repo.CustomizableColumnsTest.ButtonOK.Click(System.Windows.Forms.MouseButtons.Right, "29;18");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'CustomizableColumnsTest.ButtonOK' at 35;13.", repo.CustomizableColumnsTest.ButtonOKInfo, new RecordItemIndex(73));
+            repo.CustomizableColumnsTest.ButtonOK.Click("35;13");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SOLIDWORKSPDMAdministration.SOLIDWORKSPDMAdministration1' at 282;35.", repo.SOLIDWORKSPDMAdministration.SOLIDWORKSPDMAdministration1Info, new RecordItemIndex(74));
+            repo.SOLIDWORKSPDMAdministration.SOLIDWORKSPDMAdministration1.Click("282;35");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Right Click item 'SOLIDWORKSPDMAdministration.SOLIDWORKSPDMAdministration1' at 282;35.", repo.SOLIDWORKSPDMAdministration.SOLIDWORKSPDMAdministration1Info, new RecordItemIndex(75));
+            repo.SOLIDWORKSPDMAdministration.SOLIDWORKSPDMAdministration1.Click(System.Windows.Forms.MouseButtons.Right, "282;35");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{F15}' with focus on 'SOLIDWORKSPDMAdministration.SOLIDWORKSPDMAdministration1'.", repo.SOLIDWORKSPDMAdministration.SOLIDWORKSPDMAdministration1Info, new RecordItemIndex(76));
+            repo.SOLIDWORKSPDMAdministration.SOLIDWORKSPDMAdministration1.PressKeys("{F15}");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SOLIDWORKSPDMAdministration.Text65535' at 194;12.", repo.SOLIDWORKSPDMAdministration.Text65535Info, new RecordItemIndex(77));
+            repo.SOLIDWORKSPDMAdministration.Text65535.Click("194;12");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='The file vault already contains a column set named 'Test'.\r\nDo you want to replace 'File List' column set?') on item 'SOLIDWORKSPDMAdministration.Text65535'.", repo.SOLIDWORKSPDMAdministration.Text65535Info, new RecordItemIndex(78));
+            Validate.AttributeEqual(repo.SOLIDWORKSPDMAdministration.Text65535Info, "Text", "The file vault already contains a column set named 'Test'.\r\nDo you want to replace 'File List' column set?");
+            Delay.Milliseconds(100);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SOLIDWORKSPDMAdministration.ButtonYes' at 19;11.", repo.SOLIDWORKSPDMAdministration.ButtonYesInfo, new RecordItemIndex(79));
+            repo.SOLIDWORKSPDMAdministration.ButtonYes.Click("19;11");
             Delay.Milliseconds(0);
             
         }
