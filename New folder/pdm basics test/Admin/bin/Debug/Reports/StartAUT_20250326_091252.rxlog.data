@@ -1,0 +1,2187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="2.8m"
+		durationms="165405"
+		type="root"
+		rid="721924e77a82e"
+		totalerrorcount="1"
+		totalwarningcount="6"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="SDH16"
+		rxversion="11.7.0.0"
+		host="LZ15-SDH16-DSA"
+		osversion="Windows 11 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="3/26/2025 9:12:55 AM"
+		timestampiso="2025-03-26T13:12:55"
+		endtime="3/26/2025 9:15:41 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="StartAUT">
+		<detail>
+			StartAUT
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.476"
+			timeRelativeToTestModuleStartTime="00:05.476"
+			timeWallClock="09:13:01"
+			time="00:05.476"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>StartAutProcessIDVar
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.525"
+			timeRelativeToTestModuleStartTime="00:05.525"
+			timeWallClock="09:13:01"
+			time="00:05.525"
+			level="Info"
+			category="Application">
+			<message>
+				Run application '&quot;C:\Program Files\SOLIDWORKS PDM\ConisioAdmin.exe&quot;' with arguments 'Administration' in normal mode. Return value bound to $StartAutProcessIDVar.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="95"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.574"
+			timeRelativeToTestModuleStartTime="00:05.574"
+			timeWallClock="09:13:01"
+			time="00:05.574"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 300ms.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="99"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.884"
+			timeRelativeToTestModuleStartTime="00:05.884"
+			timeWallClock="09:13:01"
+			time="00:05.884"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SOLIDWORKSPDMAdministration.About' at 14;6.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'SOLIDWORKS PDM Administra']/?/?/toolbar[@controlid='59392']/button[@text='About']"
+				itempath="?/?/toolbar[@controlid='59392']/button[@text='About']"
+				fullname="AdminRepository.SOLIDWORKSPDMAdministration.About"
+				id="b3b9ea8e5e33459fb15efc335c5da206"
+				timeout="60000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="102"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.512"
+			timeRelativeToTestModuleStartTime="00:10.512"
+			timeWallClock="09:13:06"
+			time="00:10.512"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='SOLIDWORKS PDM 2025 (SP 2.0)') on item 'AboutSOLIDWORKSPDMAdministration.Text1021'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'About SOLIDWORKS PDM Admi']/text[@controlid='1021']"
+				itempath="text[@controlid='1021']"
+				fullname="AdminRepository.AboutSOLIDWORKSPDMAdministration.Text1021"
+				id="d9a1216d7ca1484598fba84cab62086e"
+				timeout="60000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="106"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.890"
+			timeRelativeToTestModuleStartTime="00:10.890"
+			timeWallClock="09:13:06"
+			time="00:10.890"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'AdminRepository.AboutSOLIDWORKSPDMAdministration.Text1021' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'About SOLIDWORKS PDM Admi']/text[@controlid='1021']"
+				itempath="text[@controlid='1021']"
+				fullname="AdminRepository.AboutSOLIDWORKSPDMAdministration.Text1021"
+				id="d9a1216d7ca1484598fba84cab62086e"
+				timeout="60000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="107"
+				loglvl="Success"
+				itemindex="3">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.998"
+			timeRelativeToTestModuleStartTime="00:10.998"
+			timeWallClock="09:13:06"
+			time="00:10.998"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Down item 'AboutSOLIDWORKSPDMAdministration.Text1571' at 63;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'About SOLIDWORKS PDM Admi']/text[@controlid='1571']"
+				itempath="text[@controlid='1571']"
+				fullname="AdminRepository.AboutSOLIDWORKSPDMAdministration.Text1571"
+				id="e12ff60cb12f4a79b1139587b9614794"
+				timeout="60000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="110"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.631"
+			timeRelativeToTestModuleStartTime="00:11.631"
+			timeWallClock="09:13:07"
+			time="00:11.631"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Up item 'AboutSOLIDWORKSPDMAdministration.Text1571' at -37;6.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'About SOLIDWORKS PDM Admi']/text[@controlid='1571']"
+				itempath="text[@controlid='1571']"
+				fullname="AdminRepository.AboutSOLIDWORKSPDMAdministration.Text1571"
+				id="e12ff60cb12f4a79b1139587b9614794"
+				timeout="60000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="115"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.838"
+			timeRelativeToTestModuleStartTime="00:11.838"
+			timeWallClock="09:13:07"
+			time="00:11.838"
+			level="Warn"
+			category="MoveTo"
+			errimg="images_StartAUT_4640f561\StartAUT_a069d1d7_rxlog.jpg"
+			errthumb="images_StartAUT_4640f561\StartAUT_a069d1d7_rxlog_thumb.jpg">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+			</message>
+			<metainfo
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="116"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.303"
+			timeRelativeToTestModuleStartTime="00:12.303"
+			timeWallClock="09:13:08"
+			time="00:12.303"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{F15}' with focus on 'AboutSOLIDWORKSPDMAdministration'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'About SOLIDWORKS PDM Admi']"
+				itempath="/form[@title>'About SOLIDWORKS PDM Admi']"
+				fullname="AdminRepository.AboutSOLIDWORKSPDMAdministration.Self"
+				id="b178f056c6c346ae90df8a4c71167137"
+				timeout="30000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="120"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.570"
+			timeRelativeToTestModuleStartTime="00:12.570"
+			timeWallClock="09:13:08"
+			time="00:12.570"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='33.2 (B130)') on item 'AboutSOLIDWORKSPDMAdministration.Text1571'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'About SOLIDWORKS PDM Admi']/text[@controlid='1571']"
+				itempath="text[@controlid='1571']"
+				fullname="AdminRepository.AboutSOLIDWORKSPDMAdministration.Text1571"
+				id="e12ff60cb12f4a79b1139587b9614794"
+				timeout="60000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="125"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.748"
+			timeRelativeToTestModuleStartTime="00:12.748"
+			timeWallClock="09:13:08"
+			time="00:12.748"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'AdminRepository.AboutSOLIDWORKSPDMAdministration.Text1571' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'About SOLIDWORKS PDM Admi']/text[@controlid='1571']"
+				itempath="text[@controlid='1571']"
+				fullname="AdminRepository.AboutSOLIDWORKSPDMAdministration.Text1571"
+				id="e12ff60cb12f4a79b1139587b9614794"
+				timeout="60000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="126"
+				loglvl="Success"
+				itemindex="7">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.855"
+			timeRelativeToTestModuleStartTime="00:12.855"
+			timeWallClock="09:13:08"
+			time="00:12.855"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'AboutSOLIDWORKSPDMAdministration.ButtonOK' at 40;4.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'About SOLIDWORKS PDM Admi']/button[@text='OK']"
+				itempath="button[@text='OK']"
+				fullname="AdminRepository.AboutSOLIDWORKSPDMAdministration.ButtonOK"
+				id="c49897f33ab541e69f587379cf6fc57a"
+				timeout="60000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="129"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.417"
+			timeRelativeToTestModuleStartTime="00:13.417"
+			timeWallClock="09:13:09"
+			time="00:13.417"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SOLIDWORKSPDMAdministration.Tree10011.SOLIDWORKSPDMAdministration' at 150;6.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'SOLIDWORKS PDM Administra']/element[@controlid='59420']/?/?/tree[@controlid='1001']/treeitem[@text>'SOLIDWORKS PDM Administra']"
+				itempath="treeitem[@text>'SOLIDWORKS PDM Administra']"
+				fullname="AdminRepository.SOLIDWORKSPDMAdministration.Tree10011.SOLIDWORKSPDMAdministration"
+				id="1de12bc3071941c5935dbc6741ac1447"
+				timeout="90000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="133"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.150"
+			timeRelativeToTestModuleStartTime="00:14.150"
+			timeWallClock="09:13:10"
+			time="00:14.150"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Right Click item 'SOLIDWORKSPDMAdministration.Tree10011.SOLIDWORKSPDMAdministration' at 150;6.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'SOLIDWORKS PDM Administra']/element[@controlid='59420']/?/?/tree[@controlid='1001']/treeitem[@text>'SOLIDWORKS PDM Administra']"
+				itempath="treeitem[@text>'SOLIDWORKS PDM Administra']"
+				fullname="AdminRepository.SOLIDWORKSPDMAdministration.Tree10011.SOLIDWORKSPDMAdministration"
+				id="1de12bc3071941c5935dbc6741ac1447"
+				timeout="90000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="137"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.768"
+			timeRelativeToTestModuleStartTime="00:14.768"
+			timeWallClock="09:13:10"
+			time="00:14.768"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SOLIDWORKSPDMAdministration.Tree10011.SOLIDWORKSPDMAdministration' at 143;6.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'SOLIDWORKS PDM Administra']/element[@controlid='59420']/?/?/tree[@controlid='1001']/treeitem[@text>'SOLIDWORKS PDM Administra']"
+				itempath="treeitem[@text>'SOLIDWORKS PDM Administra']"
+				fullname="AdminRepository.SOLIDWORKSPDMAdministration.Tree10011.SOLIDWORKSPDMAdministration"
+				id="1de12bc3071941c5935dbc6741ac1447"
+				timeout="90000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="141"
+				itemindex="11"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.286"
+			timeRelativeToTestModuleStartTime="00:15.286"
+			timeWallClock="09:13:11"
+			time="00:15.286"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse scroll Vertical by -1920 units.
+			</message>
+			<metainfo
+				itemindex="12"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="145"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.597"
+			timeRelativeToTestModuleStartTime="00:15.597"
+			timeWallClock="09:13:11"
+			time="00:15.597"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SOLIDWORKSPDMAdministration.Tree10011.Tree1001' at 35;34.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'SOLIDWORKS PDM Administra']/element[@controlid='59420']/?/?/tree[@controlid='1001']"
+				itempath=""
+				fullname="AdminRepository.SOLIDWORKSPDMAdministration.Tree10011.Tree1001"
+				id="4be0a3e39123465a84ea22422255c315"
+				timeout="90000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="149"
+				itemindex="13"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.181"
+			timeRelativeToTestModuleStartTime="00:16.181"
+			timeWallClock="09:13:12"
+			time="00:16.181"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{F15}' with focus on 'SOLIDWORKSPDMAdministration.Tree10011.Tree1001'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'SOLIDWORKS PDM Administra']/element[@controlid='59420']/?/?/tree[@controlid='1001']"
+				itempath=""
+				fullname="AdminRepository.SOLIDWORKSPDMAdministration.Tree10011.Tree1001"
+				id="4be0a3e39123465a84ea22422255c315"
+				timeout="90000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="153"
+				itemindex="14"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.458"
+			timeRelativeToTestModuleStartTime="00:16.458"
+			timeWallClock="09:13:12"
+			time="00:16.458"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SOLIDWORKSPDMAdministration.Tree10011.KeywordTest' at 9;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'SOLIDWORKS PDM Administra']/element[@controlid='59420']/?/?/tree[@controlid='1001']//treeitem[@text='Keyword Test']"
+				itempath=".//treeitem[@text='Keyword Test']"
+				fullname="AdminRepository.SOLIDWORKSPDMAdministration.Tree10011.KeywordTest"
+				id="add2b9634f834d58abe53bd4ba7ad7d5"
+				timeout="90000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="157"
+				itemindex="15"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.017"
+			timeRelativeToTestModuleStartTime="00:17.017"
+			timeWallClock="09:13:12"
+			time="00:17.017"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Right Click item 'SOLIDWORKSPDMAdministration.Tree10011.KeywordTest' at 9;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'SOLIDWORKS PDM Administra']/element[@controlid='59420']/?/?/tree[@controlid='1001']//treeitem[@text='Keyword Test']"
+				itempath=".//treeitem[@text='Keyword Test']"
+				fullname="AdminRepository.SOLIDWORKSPDMAdministration.Tree10011.KeywordTest"
+				id="add2b9634f834d58abe53bd4ba7ad7d5"
+				timeout="90000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="161"
+				itemindex="16"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.756"
+			timeRelativeToTestModuleStartTime="00:17.756"
+			timeWallClock="09:13:13"
+			time="00:17.756"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SOLIDWORKSPDMAdministration.Tree10011.CEPA' at 28;35.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'SOLIDWORKS PDM Administra']/element[@controlid='59420']/?/?/tree[@controlid='1001']//treeitem[@text='CEPA']"
+				itempath=".//treeitem[@text='CEPA']"
+				fullname="AdminRepository.SOLIDWORKSPDMAdministration.Tree10011.CEPA"
+				id="c39ad2de6d7d4fa1b64eec708894727f"
+				timeout="90000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="165"
+				itemindex="17"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.896"
+			timeRelativeToTestModuleStartTime="00:17.896"
+			timeWallClock="09:13:13"
+			time="00:17.896"
+			level="Warn"
+			category="Click"
+			errimg="images_StartAUT_4640f561\StartAUT_a06ad1d7_rxlog.jpg"
+			errthumb="images_StartAUT_4640f561\StartAUT_a06ad1d7_rxlog_thumb.jpg">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+			</message>
+			<metainfo
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="166"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.289"
+			timeRelativeToTestModuleStartTime="00:18.289"
+			timeWallClock="09:13:14"
+			time="00:18.289"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Right Click item 'SOLIDWORKSPDMAdministration.Tree10011.KeywordTest' at 28;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'SOLIDWORKS PDM Administra']/element[@controlid='59420']/?/?/tree[@controlid='1001']//treeitem[@text='Keyword Test']"
+				itempath=".//treeitem[@text='Keyword Test']"
+				fullname="AdminRepository.SOLIDWORKSPDMAdministration.Tree10011.KeywordTest"
+				id="add2b9634f834d58abe53bd4ba7ad7d5"
+				timeout="90000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="169"
+				itemindex="18"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.823"
+			timeRelativeToTestModuleStartTime="00:18.823"
+			timeWallClock="09:13:14"
+			time="00:18.823"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ContextMenuHash32768.None' at 63;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu/?/?/menuitem"
+				itempath="?/?/menuitem"
+				fullname="AdminRepository.ContextMenuHash32768.None"
+				id="1f420891a29c42449935a91a9990614c"
+				timeout="60000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="173"
+				itemindex="19"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.553"
+			timeRelativeToTestModuleStartTime="00:19.553"
+			timeWallClock="09:13:15"
+			time="00:19.553"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Down item 'SOLIDWORKSPDMLoginKeywordTest.Text2001' at 60;14.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'SOLIDWORKS PDM Login - Keyword']/text[@controlid='2001']"
+				itempath="text[@controlid='2001']"
+				fullname="AdminRepository.SOLIDWORKSPDMLoginKeywordTest.Text2001"
+				id="dc2ffe884bf348c9b01dbdb621809545"
+				timeout="60000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="177"
+				itemindex="20"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.351"
+			timeRelativeToTestModuleStartTime="00:20.351"
+			timeWallClock="09:13:16"
+			time="00:20.351"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Up item 'SOLIDWORKSPDMLoginKeywordTest.Text2001' at -124;-4.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'SOLIDWORKS PDM Login - Keyword']/text[@controlid='2001']"
+				itempath="text[@controlid='2001']"
+				fullname="AdminRepository.SOLIDWORKSPDMLoginKeywordTest.Text2001"
+				id="dc2ffe884bf348c9b01dbdb621809545"
+				timeout="60000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="182"
+				itemindex="21"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.461"
+			timeRelativeToTestModuleStartTime="00:20.461"
+			timeWallClock="09:13:16"
+			time="00:20.461"
+			level="Warn"
+			category="MoveTo"
+			errimg="images_StartAUT_4640f561\StartAUT_a06bd1d7_rxlog.jpg"
+			errthumb="images_StartAUT_4640f561\StartAUT_a06bd1d7_rxlog_thumb.jpg">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+			</message>
+			<metainfo
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="183"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.800"
+			timeRelativeToTestModuleStartTime="00:20.800"
+			timeWallClock="09:13:16"
+			time="00:20.800"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'admin' with focus on 'SOLIDWORKSPDMLoginKeywordTest.SOLIDWORKSPDMLoginKeywordTest'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'SOLIDWORKS PDM Login - Keyword']"
+				itempath=""
+				fullname="AdminRepository.SOLIDWORKSPDMLoginKeywordTest.SOLIDWORKSPDMLoginKeywordTest"
+				id="5fa1d7a65f9c44d287a657a51284a9b2"
+				timeout="60000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="187"
+				itemindex="22"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.082"
+			timeRelativeToTestModuleStartTime="00:21.082"
+			timeWallClock="09:13:17"
+			time="00:21.082"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SOLIDWORKSPDMLoginKeywordTest.SOLIDWORKSPDMLoginKeywordTest' at 406;232.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'SOLIDWORKS PDM Login - Keyword']"
+				itempath=""
+				fullname="AdminRepository.SOLIDWORKSPDMLoginKeywordTest.SOLIDWORKSPDMLoginKeywordTest"
+				id="5fa1d7a65f9c44d287a657a51284a9b2"
+				timeout="60000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="192"
+				itemindex="23"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.469"
+			timeRelativeToTestModuleStartTime="00:21.469"
+			timeWallClock="09:13:17"
+			time="00:21.469"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SOLIDWORKSPDMAdministration.Tree10011.Tree1001' at 51;120.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'SOLIDWORKS PDM Administra']/element[@controlid='59420']/?/?/tree[@controlid='1001']"
+				itempath=""
+				fullname="AdminRepository.SOLIDWORKSPDMAdministration.Tree10011.Tree1001"
+				id="4be0a3e39123465a84ea22422255c315"
+				timeout="90000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="196"
+				itemindex="24"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.403"
+			timeRelativeToTestModuleStartTime="00:23.403"
+			timeWallClock="09:13:19"
+			time="00:23.403"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left DoubleClick item 'SOLIDWORKSPDMAdministration.Tree10011.KeywordTestAdmin' at 7;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'SOLIDWORKS PDM Administra']/element[@controlid='59420']/?/?/tree[@controlid='1001']//treeitem[@text='Keyword Test (admin)']"
+				itempath=".//treeitem[@text='Keyword Test (admin)']"
+				fullname="AdminRepository.SOLIDWORKSPDMAdministration.Tree10011.KeywordTestAdmin"
+				id="b7a1f33adec5427f988a4802e03cb957"
+				timeout="90000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="200"
+				itemindex="25"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:24.133"
+			timeRelativeToTestModuleStartTime="00:24.133"
+			timeWallClock="09:13:20"
+			time="00:24.133"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SOLIDWORKSPDMAdministration.Tree10011.KeywordTestAdmin' at 69;5.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'SOLIDWORKS PDM Administra']/element[@controlid='59420']/?/?/tree[@controlid='1001']//treeitem[@text='Keyword Test (admin)']"
+				itempath=".//treeitem[@text='Keyword Test (admin)']"
+				fullname="AdminRepository.SOLIDWORKSPDMAdministration.Tree10011.KeywordTestAdmin"
+				id="b7a1f33adec5427f988a4802e03cb957"
+				timeout="90000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="204"
+				itemindex="26"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.286"
+			timeRelativeToTestModuleStartTime="00:25.286"
+			timeWallClock="09:13:21"
+			time="00:25.286"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Right Click item 'SOLIDWORKSPDMAdministration.Tree10011.KeywordTestAdmin' at 69;5.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'SOLIDWORKS PDM Administra']/element[@controlid='59420']/?/?/tree[@controlid='1001']//treeitem[@text='Keyword Test (admin)']"
+				itempath=".//treeitem[@text='Keyword Test (admin)']"
+				fullname="AdminRepository.SOLIDWORKSPDMAdministration.Tree10011.KeywordTestAdmin"
+				id="b7a1f33adec5427f988a4802e03cb957"
+				timeout="90000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="208"
+				itemindex="27"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.972"
+			timeRelativeToTestModuleStartTime="00:25.972"
+			timeWallClock="09:13:21"
+			time="00:25.972"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ContextMenuHash32768.None' at 100;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu/?/?/menuitem"
+				itempath="?/?/menuitem"
+				fullname="AdminRepository.ContextMenuHash32768.None"
+				id="1f420891a29c42449935a91a9990614c"
+				timeout="60000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="212"
+				itemindex="28"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.620"
+			timeRelativeToTestModuleStartTime="00:26.620"
+			timeWallClock="09:13:22"
+			time="00:26.620"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse scroll Vertical by -1440 units.
+			</message>
+			<metainfo
+				itemindex="29"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="216"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.927"
+			timeRelativeToTestModuleStartTime="00:26.927"
+			timeWallClock="09:13:22"
+			time="00:26.927"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SOLIDWORKSPDMAdministration.Tree10011.KeywordTestAdmin' at 21;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'SOLIDWORKS PDM Administra']/element[@controlid='59420']/?/?/tree[@controlid='1001']//treeitem[@text='Keyword Test (admin)']"
+				itempath=".//treeitem[@text='Keyword Test (admin)']"
+				fullname="AdminRepository.SOLIDWORKSPDMAdministration.Tree10011.KeywordTestAdmin"
+				id="b7a1f33adec5427f988a4802e03cb957"
+				timeout="90000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="220"
+				itemindex="30"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:27.572"
+			timeRelativeToTestModuleStartTime="00:27.572"
+			timeWallClock="09:13:23"
+			time="00:27.572"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Right Click item 'SOLIDWORKSPDMAdministration.Tree10011.KeywordTestAdmin' at 21;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'SOLIDWORKS PDM Administra']/element[@controlid='59420']/?/?/tree[@controlid='1001']//treeitem[@text='Keyword Test (admin)']"
+				itempath=".//treeitem[@text='Keyword Test (admin)']"
+				fullname="AdminRepository.SOLIDWORKSPDMAdministration.Tree10011.KeywordTestAdmin"
+				id="b7a1f33adec5427f988a4802e03cb957"
+				timeout="90000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="224"
+				itemindex="31"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:28.304"
+			timeRelativeToTestModuleStartTime="00:28.304"
+			timeWallClock="09:13:24"
+			time="00:28.304"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ContextMenuHash32768.None' at 131;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu/?/?/menuitem"
+				itempath="?/?/menuitem"
+				fullname="AdminRepository.ContextMenuHash32768.None"
+				id="1f420891a29c42449935a91a9990614c"
+				timeout="60000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="228"
+				itemindex="32"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:28.972"
+			timeRelativeToTestModuleStartTime="00:28.972"
+			timeWallClock="09:13:24"
+			time="00:28.972"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{F15}' with focus on 'SOLIDWORKSPDMAdministration.SOLIDWORKSPDMAdministration'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'SOLIDWORKS PDM Administra']"
+				itempath=""
+				fullname="AdminRepository.SOLIDWORKSPDMAdministration.SOLIDWORKSPDMAdministration"
+				id="9fd06909b095446ba874a99a3a67f3c5"
+				timeout="60000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="232"
+				itemindex="33"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:29.154"
+			timeRelativeToTestModuleStartTime="00:29.154"
+			timeWallClock="09:13:25"
+			time="00:29.154"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SOLIDWORKSPDMAdministrationFileVau.TitleBar' at 159;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'SOLIDWORKS PDM Administration']//container[@automationid='59648']/form[@automationid='65280']/titlebar[@automationid='TitleBar']"
+				itempath=".//container[@automationid='59648']/form[@automationid='65280']/titlebar[@automationid='TitleBar']"
+				fullname="AdminRepository.SOLIDWORKSPDMAdministrationFileVau.TitleBar"
+				id="c28a8d4d384b4d61a9bc355bf6cc33b9"
+				timeout="60000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="237"
+				itemindex="34"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:30.056"
+			timeRelativeToTestModuleStartTime="00:30.056"
+			timeWallClock="09:13:25"
+			time="00:30.056"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'SOLIDWORKSPDMAdministrationFileVau.TitleBar'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'SOLIDWORKS PDM Administration']//container[@automationid='59648']/form[@automationid='65280']/titlebar[@automationid='TitleBar']"
+				itempath=".//container[@automationid='59648']/form[@automationid='65280']/titlebar[@automationid='TitleBar']"
+				fullname="AdminRepository.SOLIDWORKSPDMAdministrationFileVau.TitleBar"
+				id="c28a8d4d384b4d61a9bc355bf6cc33b9"
+				timeout="60000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="241"
+				itemindex="35"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:30.319"
+			timeRelativeToTestModuleStartTime="00:30.319"
+			timeWallClock="09:13:26"
+			time="00:30.319"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'TitleBar' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'SOLIDWORKS PDM Administration']//container[@automationid='59648']/form[@automationid='65280']/titlebar[@automationid='TitleBar']"
+				itempath=".//container[@automationid='59648']/form[@automationid='65280']/titlebar[@automationid='TitleBar']"
+				fullname="AdminRepository.SOLIDWORKSPDMAdministrationFileVau.TitleBar"
+				id="c28a8d4d384b4d61a9bc355bf6cc33b9"
+				timeout="60000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="242"
+				loglvl="Success"
+				itemindex="35">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:30.427"
+			timeRelativeToTestModuleStartTime="00:30.427"
+			timeWallClock="09:13:26"
+			time="00:30.427"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Down item 'SOLIDWORKSPDMAdministrationFileVau.Form65280.Text1516' at 123;7.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'SOLIDWORKS PDM Administration']/container[@controlid='59648']/form[@controlid='65280']//text[@controlid='1516']"
+				itempath=".//text[@controlid='1516']"
+				fullname="AdminRepository.SOLIDWORKSPDMAdministrationFileVau.Form65280.Text1516"
+				id="858c7e92a1f940f9827cf31159519d98"
+				timeout="90000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="245"
+				itemindex="36"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:32.605"
+			timeRelativeToTestModuleStartTime="00:32.605"
+			timeWallClock="09:13:28"
+			time="00:32.605"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Up item 'SOLIDWORKSPDMAdministrationFileVau.Form65280.Text1516' at 123;7.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'SOLIDWORKS PDM Administration']/container[@controlid='59648']/form[@controlid='65280']//text[@controlid='1516']"
+				itempath=".//text[@controlid='1516']"
+				fullname="AdminRepository.SOLIDWORKSPDMAdministrationFileVau.Form65280.Text1516"
+				id="858c7e92a1f940f9827cf31159519d98"
+				timeout="90000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="250"
+				itemindex="37"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:34.624"
+			timeRelativeToTestModuleStartTime="00:34.624"
+			timeWallClock="09:13:30"
+			time="00:34.624"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='walswkqa04587') on item 'SOLIDWORKSPDMAdministrationFileVau.Form65280.Text1518'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'SOLIDWORKS PDM Administration']/container[@controlid='59648']/form[@controlid='65280']//text[@controlid='1518']"
+				itempath=".//text[@controlid='1518']"
+				fullname="AdminRepository.SOLIDWORKSPDMAdministrationFileVau.Form65280.Text1518"
+				id="292e1387de7149348716f396c7d70e89"
+				timeout="90000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="255"
+				itemindex="38"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:35.262"
+			timeRelativeToTestModuleStartTime="00:35.262"
+			timeWallClock="09:13:31"
+			time="00:35.262"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'AdminRepository.SOLIDWORKSPDMAdministrationFileVau.Form65280.Text1518' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'SOLIDWORKS PDM Administration']/container[@controlid='59648']/form[@controlid='65280']//text[@controlid='1518']"
+				itempath=".//text[@controlid='1518']"
+				fullname="AdminRepository.SOLIDWORKSPDMAdministrationFileVau.Form65280.Text1518"
+				id="292e1387de7149348716f396c7d70e89"
+				timeout="90000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="256"
+				loglvl="Success"
+				itemindex="38">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:35.367"
+			timeRelativeToTestModuleStartTime="00:35.367"
+			timeWallClock="09:13:31"
+			time="00:35.367"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'SOLIDWORKSPDMAdministrationFileVau.Form65280.Text1518'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'SOLIDWORKS PDM Administration']/container[@controlid='59648']/form[@controlid='65280']//text[@controlid='1518']"
+				itempath=".//text[@controlid='1518']"
+				fullname="AdminRepository.SOLIDWORKSPDMAdministrationFileVau.Form65280.Text1518"
+				id="292e1387de7149348716f396c7d70e89"
+				timeout="90000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="259"
+				itemindex="39"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:36.319"
+			timeRelativeToTestModuleStartTime="00:36.319"
+			timeWallClock="09:13:32"
+			time="00:36.319"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Text1518' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'SOLIDWORKS PDM Administration']/container[@controlid='59648']/form[@controlid='65280']//text[@controlid='1518']"
+				itempath=".//text[@controlid='1518']"
+				fullname="AdminRepository.SOLIDWORKSPDMAdministrationFileVau.Form65280.Text1518"
+				id="292e1387de7149348716f396c7d70e89"
+				timeout="90000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="260"
+				loglvl="Success"
+				itemindex="39">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:36.425"
+			timeRelativeToTestModuleStartTime="00:36.425"
+			timeWallClock="09:13:32"
+			time="00:36.425"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SOLIDWORKSPDMAdministrationFileVau.Maximize' at 19;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'SOLIDWORKS PDM Administration']//container[@automationid='59648']/form[@automationid='65280']/?/?/button[@name='Maximize']"
+				itempath=".//container[@automationid='59648']/form[@automationid='65280']/?/?/button[@name='Maximize']"
+				fullname="AdminRepository.SOLIDWORKSPDMAdministrationFileVau.Maximize"
+				id="bc6a65e2e2954c27b4b95d3f177f9f77"
+				timeout="60000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="263"
+				itemindex="40"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:37.442"
+			timeRelativeToTestModuleStartTime="00:37.442"
+			timeWallClock="09:13:33"
+			time="00:37.442"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'SOLIDWORKSPDMAdministrationFileVau.Form65280.CheckBoxGet'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'SOLIDWORKS PDM Administration']/container[@controlid='59648']/form[@controlid='65280']//checkbox[@text='Get']"
+				itempath=".//checkbox[@text='Get']"
+				fullname="AdminRepository.SOLIDWORKSPDMAdministrationFileVau.Form65280.CheckBoxGet"
+				id="6d1036b36dab4a4893b16456e7412b84"
+				timeout="90000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="267"
+				itemindex="41"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:38.446"
+			timeRelativeToTestModuleStartTime="00:38.446"
+			timeWallClock="09:13:34"
+			time="00:38.446"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'CheckBoxGet' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'SOLIDWORKS PDM Administration']/container[@controlid='59648']/form[@controlid='65280']//checkbox[@text='Get']"
+				itempath=".//checkbox[@text='Get']"
+				fullname="AdminRepository.SOLIDWORKSPDMAdministrationFileVau.Form65280.CheckBoxGet"
+				id="6d1036b36dab4a4893b16456e7412b84"
+				timeout="90000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="268"
+				loglvl="Success"
+				itemindex="41">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:38.552"
+			timeRelativeToTestModuleStartTime="00:38.552"
+			timeWallClock="09:13:34"
+			time="00:38.552"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'SOLIDWORKSPDMAdministrationFileVau.Form65280.CheckBoxGet'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'SOLIDWORKS PDM Administration']/container[@controlid='59648']/form[@controlid='65280']//checkbox[@text='Get']"
+				itempath=".//checkbox[@text='Get']"
+				fullname="AdminRepository.SOLIDWORKSPDMAdministrationFileVau.Form65280.CheckBoxGet"
+				id="6d1036b36dab4a4893b16456e7412b84"
+				timeout="90000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="271"
+				itemindex="42"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:39.515"
+			timeRelativeToTestModuleStartTime="00:39.515"
+			timeWallClock="09:13:35"
+			time="00:39.515"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'CheckBoxGet' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'SOLIDWORKS PDM Administration']/container[@controlid='59648']/form[@controlid='65280']//checkbox[@text='Get']"
+				itempath=".//checkbox[@text='Get']"
+				fullname="AdminRepository.SOLIDWORKSPDMAdministrationFileVau.Form65280.CheckBoxGet"
+				id="6d1036b36dab4a4893b16456e7412b84"
+				timeout="90000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="272"
+				loglvl="Success"
+				itemindex="42">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:39.621"
+			timeRelativeToTestModuleStartTime="00:39.621"
+			timeWallClock="09:13:35"
+			time="00:39.621"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SOLIDWORKSPDMAdministrationFileVau.Form65280.CheckBoxGet' at 5;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'SOLIDWORKS PDM Administration']/container[@controlid='59648']/form[@controlid='65280']//checkbox[@text='Get']"
+				itempath=".//checkbox[@text='Get']"
+				fullname="AdminRepository.SOLIDWORKSPDMAdministrationFileVau.Form65280.CheckBoxGet"
+				id="6d1036b36dab4a4893b16456e7412b84"
+				timeout="90000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="275"
+				itemindex="43"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:40.851"
+			timeRelativeToTestModuleStartTime="00:40.851"
+			timeWallClock="09:13:36"
+			time="00:40.851"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Checked='False') on item 'SOLIDWORKSPDMAdministrationFileVau.Form65280.IncludeRefreshCacheDuringLogIn'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'SOLIDWORKS PDM Administration']/container[@controlid='59648']/form[@controlid='65280']//checkbox[@text>'Include Refresh cache during']"
+				itempath=".//checkbox[@text>'Include Refresh cache during']"
+				fullname="AdminRepository.SOLIDWORKSPDMAdministrationFileVau.Form65280.IncludeRefreshCacheDuringLogIn"
+				id="45f743c3775b4f2c9174f59cd7771280"
+				timeout="90000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="279"
+				itemindex="44"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:41.949"
+			timeRelativeToTestModuleStartTime="00:41.949"
+			timeWallClock="09:13:37"
+			time="00:41.949"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Checked' of element for item 'AdminRepository.SOLIDWORKSPDMAdministrationFileVau.Form65280.IncludeRefreshCacheDuringLogIn' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'SOLIDWORKS PDM Administration']/container[@controlid='59648']/form[@controlid='65280']//checkbox[@text>'Include Refresh cache during']"
+				itempath=".//checkbox[@text>'Include Refresh cache during']"
+				fullname="AdminRepository.SOLIDWORKSPDMAdministrationFileVau.Form65280.IncludeRefreshCacheDuringLogIn"
+				id="45f743c3775b4f2c9174f59cd7771280"
+				timeout="90000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="280"
+				loglvl="Success"
+				itemindex="44">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:42.056"
+			timeRelativeToTestModuleStartTime="00:42.056"
+			timeWallClock="09:13:37"
+			time="00:42.056"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SOLIDWORKSPDMAdministrationFileVau.Form65280.IncludeRefreshCacheDuringLogIn' at 7;6.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'SOLIDWORKS PDM Administration']/container[@controlid='59648']/form[@controlid='65280']//checkbox[@text>'Include Refresh cache during']"
+				itempath=".//checkbox[@text>'Include Refresh cache during']"
+				fullname="AdminRepository.SOLIDWORKSPDMAdministrationFileVau.Form65280.IncludeRefreshCacheDuringLogIn"
+				id="45f743c3775b4f2c9174f59cd7771280"
+				timeout="90000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="283"
+				itemindex="45"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:43.543"
+			timeRelativeToTestModuleStartTime="00:43.543"
+			timeWallClock="09:13:39"
+			time="00:43.543"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SOLIDWORKSPDMAdministrationFileVau.Form65280.CheckBoxGet' at 7;5.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'SOLIDWORKS PDM Administration']/container[@controlid='59648']/form[@controlid='65280']//checkbox[@text='Get']"
+				itempath=".//checkbox[@text='Get']"
+				fullname="AdminRepository.SOLIDWORKSPDMAdministrationFileVau.Form65280.CheckBoxGet"
+				id="6d1036b36dab4a4893b16456e7412b84"
+				timeout="90000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="287"
+				itemindex="46"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:44.730"
+			timeRelativeToTestModuleStartTime="00:44.730"
+			timeWallClock="09:13:40"
+			time="00:44.730"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SOLIDWORKSPDMAdministrationFileVau.Form65280.LogInAndLogOut' at 5;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'SOLIDWORKS PDM Administration']/container[@controlid='59648']/form[@controlid='65280']//checkbox[@text='Log-in and Log-out']"
+				itempath=".//checkbox[@text='Log-in and Log-out']"
+				fullname="AdminRepository.SOLIDWORKSPDMAdministrationFileVau.Form65280.LogInAndLogOut"
+				id="6f637611619f41619882f40781b42215"
+				timeout="90000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="291"
+				itemindex="47"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:46.260"
+			timeRelativeToTestModuleStartTime="00:46.260"
+			timeWallClock="09:13:42"
+			time="00:46.260"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SOLIDWORKSPDMAdministrationFileVau.Form65280.LogInAndLogOut' at 5;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'SOLIDWORKS PDM Administration']/container[@controlid='59648']/form[@controlid='65280']//checkbox[@text='Log-in and Log-out']"
+				itempath=".//checkbox[@text='Log-in and Log-out']"
+				fullname="AdminRepository.SOLIDWORKSPDMAdministrationFileVau.Form65280.LogInAndLogOut"
+				id="6f637611619f41619882f40781b42215"
+				timeout="90000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="295"
+				itemindex="48"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:47.729"
+			timeRelativeToTestModuleStartTime="00:47.729"
+			timeWallClock="09:13:43"
+			time="00:47.729"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SOLIDWORKSPDMAdministration.Tree10011.KeywordTestAdmin' at 74;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'SOLIDWORKS PDM Administra']/element[@controlid='59420']/?/?/tree[@controlid='1001']//treeitem[@text='Keyword Test (admin)']"
+				itempath=".//treeitem[@text='Keyword Test (admin)']"
+				fullname="AdminRepository.SOLIDWORKSPDMAdministration.Tree10011.KeywordTestAdmin"
+				id="b7a1f33adec5427f988a4802e03cb957"
+				timeout="90000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="299"
+				itemindex="49"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:48.309"
+			timeRelativeToTestModuleStartTime="00:48.309"
+			timeWallClock="09:13:44"
+			time="00:48.309"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Right Click item 'SOLIDWORKSPDMAdministration.Tree10011.KeywordTestAdmin' at 74;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'SOLIDWORKS PDM Administra']/element[@controlid='59420']/?/?/tree[@controlid='1001']//treeitem[@text='Keyword Test (admin)']"
+				itempath=".//treeitem[@text='Keyword Test (admin)']"
+				fullname="AdminRepository.SOLIDWORKSPDMAdministration.Tree10011.KeywordTestAdmin"
+				id="b7a1f33adec5427f988a4802e03cb957"
+				timeout="90000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="303"
+				itemindex="50"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:48.931"
+			timeRelativeToTestModuleStartTime="00:48.931"
+			timeWallClock="09:13:44"
+			time="00:48.931"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ConisioAdmin.Refresh' at 41;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='ConisioAdmin']/?/?/menuitem[@accessiblename='Refresh']"
+				itempath="?/?/menuitem[@accessiblename='Refresh']"
+				fullname="AdminRepository.ConisioAdmin.Refresh"
+				id="f9b930717bf24ce78d5882ef9344e493"
+				timeout="60000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="307"
+				itemindex="51"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:49.862"
+			timeRelativeToTestModuleStartTime="00:49.862"
+			timeWallClock="09:13:45"
+			time="00:49.862"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='Down') on item 'SOLIDWORKSPDMAdministration.Tree10011.Down'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'SOLIDWORKS PDM Administra']/element[@controlid='59420']/?/?/tree[@controlid='1001']/scrollbar[@style='Vertical']/button[@text='Down']"
+				itempath="scrollbar[@style='Vertical']/button[@text='Down']"
+				fullname="AdminRepository.SOLIDWORKSPDMAdministration.Tree10011.Down"
+				id="bc7b07ac9436420f887574d4694c6a45"
+				timeout="90000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="311"
+				itemindex="52"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:50.271"
+			timeRelativeToTestModuleStartTime="00:50.271"
+			timeWallClock="09:13:46"
+			time="00:50.271"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'AdminRepository.SOLIDWORKSPDMAdministration.Tree10011.Down' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'SOLIDWORKS PDM Administra']/element[@controlid='59420']/?/?/tree[@controlid='1001']/scrollbar[@style='Vertical']/button[@text='Down']"
+				itempath="scrollbar[@style='Vertical']/button[@text='Down']"
+				fullname="AdminRepository.SOLIDWORKSPDMAdministration.Tree10011.Down"
+				id="bc7b07ac9436420f887574d4694c6a45"
+				timeout="90000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="312"
+				loglvl="Success"
+				itemindex="52">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:50.378"
+			timeRelativeToTestModuleStartTime="00:50.378"
+			timeWallClock="09:13:46"
+			time="00:50.378"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Down item 'SOLIDWORKSPDMAdministration.Tree10011.Down' at 5;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'SOLIDWORKS PDM Administra']/element[@controlid='59420']/?/?/tree[@controlid='1001']/scrollbar[@style='Vertical']/button[@text='Down']"
+				itempath="scrollbar[@style='Vertical']/button[@text='Down']"
+				fullname="AdminRepository.SOLIDWORKSPDMAdministration.Tree10011.Down"
+				id="bc7b07ac9436420f887574d4694c6a45"
+				timeout="90000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="315"
+				itemindex="53"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:51.163"
+			timeRelativeToTestModuleStartTime="00:51.163"
+			timeWallClock="09:13:47"
+			time="00:51.163"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SOLIDWORKSPDMAdministrationFileVau.Tree1001' at 69;366.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'SOLIDWORKS PDM Administration']/element[@controlid='59420']/?/?/tree[@controlid='1001']"
+				itempath="element[@controlid='59420']/?/?/tree[@controlid='1001']"
+				fullname="AdminRepository.SOLIDWORKSPDMAdministrationFileVau.Tree1001"
+				id="a18e4bfe582a4e8ea094d65cb559ccb0"
+				timeout="60000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="320"
+				itemindex="54"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:51.765"
+			timeRelativeToTestModuleStartTime="00:51.765"
+			timeWallClock="09:13:47"
+			time="00:51.765"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SOLIDWORKSPDMAdministrationFileVau.Columns' at 7;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'SOLIDWORKS PDM Administration']/element[@controlid='59420']/container[@controlid='130']/tree[@controlid='1001']//treeitem[@text='Columns']"
+				itempath="element[@controlid='59420']/container[@controlid='130']/tree[@controlid='1001']//treeitem[@text='Columns']"
+				fullname="AdminRepository.SOLIDWORKSPDMAdministrationFileVau.Columns"
+				id="d5e076c9137944caa6a6abe6d0f31ec9"
+				timeout="60000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="324"
+				itemindex="55"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:52.564"
+			timeRelativeToTestModuleStartTime="00:52.564"
+			timeWallClock="09:13:48"
+			time="00:52.564"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Right Click item 'SOLIDWORKSPDMAdministrationFileVau.Columns' at 13;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'SOLIDWORKS PDM Administration']/element[@controlid='59420']/container[@controlid='130']/tree[@controlid='1001']//treeitem[@text='Columns']"
+				itempath="element[@controlid='59420']/container[@controlid='130']/tree[@controlid='1001']//treeitem[@text='Columns']"
+				fullname="AdminRepository.SOLIDWORKSPDMAdministrationFileVau.Columns"
+				id="d5e076c9137944caa6a6abe6d0f31ec9"
+				timeout="60000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="328"
+				itemindex="56"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:53.181"
+			timeRelativeToTestModuleStartTime="00:53.181"
+			timeWallClock="09:13:49"
+			time="00:53.181"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ContextMenuHash32768.None' at 19;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu/?/?/menuitem"
+				itempath="?/?/menuitem"
+				fullname="AdminRepository.ContextMenuHash32768.None"
+				id="1f420891a29c42449935a91a9990614c"
+				timeout="60000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="332"
+				itemindex="57"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:53.865"
+			timeRelativeToTestModuleStartTime="00:53.865"
+			timeWallClock="09:13:49"
+			time="00:53.865"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'Test' with focus on 'CustomizableColumnsNewView'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Customizable Columns - New']"
+				itempath="/form[@title>'Customizable Columns - New']"
+				fullname="AdminRepository.CustomizableColumnsNewView.Self"
+				id="f64f1473997f4268afaf7c6f67c4ac00"
+				timeout="30000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="336"
+				itemindex="58"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:55.245"
+			timeRelativeToTestModuleStartTime="00:55.245"
+			timeWallClock="09:13:51"
+			time="00:55.245"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'CustomizableColumnsNewView.ButtonAdd' at 66;5.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Customizable Columns - New']/button[@text='Add']"
+				itempath="button[@text='Add']"
+				fullname="AdminRepository.CustomizableColumnsNewView.ButtonAdd"
+				id="32923fba681641448cf0f6aa6923976c"
+				timeout="60000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="341"
+				itemindex="59"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:55.816"
+			timeRelativeToTestModuleStartTime="00:55.816"
+			timeWallClock="09:13:51"
+			time="00:55.816"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'CustomizableColumnsNewView.ButtonAdd' at 54;2.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Customizable Columns - New']/button[@text='Add']"
+				itempath="button[@text='Add']"
+				fullname="AdminRepository.CustomizableColumnsNewView.ButtonAdd"
+				id="32923fba681641448cf0f6aa6923976c"
+				timeout="60000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="345"
+				itemindex="60"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:56.717"
+			timeRelativeToTestModuleStartTime="00:56.717"
+			timeWallClock="09:13:52"
+			time="00:56.717"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'CustomizableColumnsNewView.CellArchiveServerPath' at 107;15.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Customizable Columns - New']/table[@controlid='1048']/?/?/cell[@columnindex='0' and @rowindex='10']"
+				itempath="table[@controlid='1048']/?/?/cell[@columnindex='0' and @rowindex='10']"
+				fullname="AdminRepository.CustomizableColumnsNewView.CellArchiveServerPath"
+				id="51785af35737448888859c0a0fd32e23"
+				timeout="60000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="349"
+				itemindex="61"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:57.616"
+			timeRelativeToTestModuleStartTime="00:57.616"
+			timeWallClock="09:13:53"
+			time="00:57.616"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'CustomizableColumnsNewView.CellArchiveServerPath' at 267;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Customizable Columns - New']/table[@controlid='1048']/?/?/cell[@columnindex='0' and @rowindex='10']"
+				itempath="table[@controlid='1048']/?/?/cell[@columnindex='0' and @rowindex='10']"
+				fullname="AdminRepository.CustomizableColumnsNewView.CellArchiveServerPath"
+				id="51785af35737448888859c0a0fd32e23"
+				timeout="60000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="353"
+				itemindex="62"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:57.931"
+			timeRelativeToTestModuleStartTime="00:57.931"
+			timeWallClock="09:13:53"
+			time="00:57.931"
+			level="Warn"
+			category="Click"
+			errimg="images_StartAUT_4640f561\StartAUT_a06cd1d7_rxlog.jpg"
+			errthumb="images_StartAUT_4640f561\StartAUT_a06cd1d7_rxlog_thumb.jpg">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+			</message>
+			<metainfo
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="354"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:58.333"
+			timeRelativeToTestModuleStartTime="00:58.333"
+			timeWallClock="09:13:54"
+			time="00:58.333"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{F15}' with focus on 'CustomizableColumnsNewView'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Customizable Columns - New']"
+				itempath="/form[@title>'Customizable Columns - New']"
+				fullname="AdminRepository.CustomizableColumnsNewView.Self"
+				id="f64f1473997f4268afaf7c6f67c4ac00"
+				timeout="30000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="357"
+				itemindex="63"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:58.511"
+			timeRelativeToTestModuleStartTime="00:58.511"
+			timeWallClock="09:13:54"
+			time="00:58.511"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'CustomizableColumnsNewView.Delete' at 71;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Customizable Columns - New']/button[@text='Delete']"
+				itempath="button[@text='Delete']"
+				fullname="AdminRepository.CustomizableColumnsNewView.Delete"
+				id="7e9c81247f4a489eb4cf55e664602015"
+				timeout="60000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="362"
+				itemindex="64"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:59.218"
+			timeRelativeToTestModuleStartTime="00:59.218"
+			timeWallClock="09:13:55"
+			time="00:59.218"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'CustomizableColumnsNewView.Permissions' at 24;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Customizable Columns - New']/?/?/tabpage[@index='1']"
+				itempath="?/?/tabpage[@index='1']"
+				fullname="AdminRepository.CustomizableColumnsNewView.Permissions"
+				id="fcc75811cd424c91a2636f714bd80848"
+				timeout="60000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="366"
+				itemindex="65"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:00.488"
+			timeRelativeToTestModuleStartTime="01:00.488"
+			timeWallClock="09:13:56"
+			time="01:00.488"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'CustomizableColumnsNewView.Table9037.View' at 14;14.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Customizable Columns - New']/table[@controlid='9037']/?/?/cell[@text='View']"
+				itempath="?/?/cell[@text='View']"
+				fullname="AdminRepository.CustomizableColumnsNewView.Table9037.View"
+				id="59ca2924af61492488b0454e78753f66"
+				timeout="90000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="370"
+				itemindex="66"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:01.100"
+			timeRelativeToTestModuleStartTime="01:01.100"
+			timeWallClock="09:13:57"
+			time="01:01.100"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'CustomizableColumnsNewView.Table9037.SomeCell' at 9;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Customizable Columns - New']/table[@controlid='9037']/?/?/cell[@columnindex='1' and @rowindex='1']"
+				itempath="?/?/cell[@columnindex='1' and @rowindex='1']"
+				fullname="AdminRepository.CustomizableColumnsNewView.Table9037.SomeCell"
+				id="a0b92899d7aa4ca8a8def020ddc22b04"
+				timeout="90000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="374"
+				itemindex="67"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:01.736"
+			timeRelativeToTestModuleStartTime="01:01.736"
+			timeWallClock="09:13:57"
+			time="01:01.736"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'CustomizableColumnsNewView.Table9037.SomeCell1' at 4;2.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Customizable Columns - New']/table[@controlid='9037']/?/?/cell[@columnindex='1']"
+				itempath="?/?/cell[@columnindex='1']"
+				fullname="AdminRepository.CustomizableColumnsNewView.Table9037.SomeCell1"
+				id="48a29de895f74cf88a55b9e4c4021674"
+				timeout="90000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="378"
+				itemindex="68"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:02.485"
+			timeRelativeToTestModuleStartTime="01:02.485"
+			timeWallClock="09:13:58"
+			time="01:02.485"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{F15}' with focus on 'CustomizableColumnsTest'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Customizable Columns - Te']"
+				itempath="/form[@title>'Customizable Columns - Te']"
+				fullname="AdminRepository.CustomizableColumnsTest.Self"
+				id="3403da95de5e4bcba1c4ab5139741864"
+				timeout="30000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="382"
+				itemindex="69"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:02.849"
+			timeRelativeToTestModuleStartTime="01:02.849"
+			timeWallClock="09:13:58"
+			time="01:02.849"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'CustomizableColumnsTest.TitleBar' at 265;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Customizable Columns - Te']/form/titlebar[@automationid='TitleBar']"
+				itempath="form/titlebar[@automationid='TitleBar']"
+				fullname="AdminRepository.CustomizableColumnsTest.TitleBar"
+				id="f2d3793572fa455397893b2ce95181c1"
+				timeout="60000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="387"
+				itemindex="70"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:03.504"
+			timeRelativeToTestModuleStartTime="01:03.504"
+			timeWallClock="09:13:59"
+			time="01:03.504"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'CustomizableColumnsTest.TabPageList9025'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Customizable Columns - Te']/tabpagelist[@controlid='9025']"
+				itempath="tabpagelist[@controlid='9025']"
+				fullname="AdminRepository.CustomizableColumnsTest.TabPageList9025"
+				id="54cdf2e3441a40d0af0268594bd62d0d"
+				timeout="60000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="391"
+				itemindex="71"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:03.840"
+			timeRelativeToTestModuleStartTime="01:03.840"
+			timeWallClock="09:13:59"
+			time="01:03.840"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'TabPageList9025' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Customizable Columns - Te']/tabpagelist[@controlid='9025']"
+				itempath="tabpagelist[@controlid='9025']"
+				fullname="AdminRepository.CustomizableColumnsTest.TabPageList9025"
+				id="54cdf2e3441a40d0af0268594bd62d0d"
+				timeout="60000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="392"
+				loglvl="Success"
+				itemindex="71">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:03.949"
+			timeRelativeToTestModuleStartTime="01:03.949"
+			timeWallClock="09:13:59"
+			time="01:03.949"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Right Click item 'CustomizableColumnsTest.ButtonOK' at 29;18.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Customizable Columns - Te']/button[@text='OK']"
+				itempath="button[@text='OK']"
+				fullname="AdminRepository.CustomizableColumnsTest.ButtonOK"
+				id="38253a13630b4f83bfd4c82bc37086e8"
+				timeout="60000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="395"
+				itemindex="72"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:04.576"
+			timeRelativeToTestModuleStartTime="01:04.576"
+			timeWallClock="09:14:00"
+			time="01:04.576"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'CustomizableColumnsTest.ButtonOK' at 35;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Customizable Columns - Te']/button[@text='OK']"
+				itempath="button[@text='OK']"
+				fullname="AdminRepository.CustomizableColumnsTest.ButtonOK"
+				id="38253a13630b4f83bfd4c82bc37086e8"
+				timeout="60000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="399"
+				itemindex="73"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:05.153"
+			timeRelativeToTestModuleStartTime="01:05.153"
+			timeWallClock="09:14:01"
+			time="01:05.153"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SOLIDWORKSPDMAdministration.SOLIDWORKSPDMAdministration1' at 282;35.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'SOLIDWORKS PDM Administra']/?/?/form[@name>'SOLIDWORKS PDM Administra']"
+				itempath="?/?/form[@name>'SOLIDWORKS PDM Administra']"
+				fullname="AdminRepository.SOLIDWORKSPDMAdministration.SOLIDWORKSPDMAdministration1"
+				id="a1fb4c6882114bc393915a75aee5bc47"
+				timeout="60000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="403"
+				itemindex="74"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:06.887"
+			timeRelativeToTestModuleStartTime="01:06.887"
+			timeWallClock="09:14:02"
+			time="01:06.887"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Right Click item 'SOLIDWORKSPDMAdministration.SOLIDWORKSPDMAdministration1' at 282;35.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'SOLIDWORKS PDM Administra']/?/?/form[@name>'SOLIDWORKS PDM Administra']"
+				itempath="?/?/form[@name>'SOLIDWORKS PDM Administra']"
+				fullname="AdminRepository.SOLIDWORKSPDMAdministration.SOLIDWORKSPDMAdministration1"
+				id="a1fb4c6882114bc393915a75aee5bc47"
+				timeout="60000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="407"
+				itemindex="75"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:08.553"
+			timeRelativeToTestModuleStartTime="01:08.553"
+			timeWallClock="09:14:04"
+			time="01:08.553"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{F15}' with focus on 'SOLIDWORKSPDMAdministration.SOLIDWORKSPDMAdministration1'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'SOLIDWORKS PDM Administra']/?/?/form[@name>'SOLIDWORKS PDM Administra']"
+				itempath="?/?/form[@name>'SOLIDWORKS PDM Administra']"
+				fullname="AdminRepository.SOLIDWORKSPDMAdministration.SOLIDWORKSPDMAdministration1"
+				id="a1fb4c6882114bc393915a75aee5bc47"
+				timeout="60000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="411"
+				itemindex="76"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:09.949"
+			timeRelativeToTestModuleStartTime="01:09.949"
+			timeWallClock="09:14:05"
+			time="01:09.949"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SOLIDWORKSPDMAdministration.Text65535' at 194;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'SOLIDWORKS PDM Administra']/text[@controlid='65535']"
+				itempath="text[@controlid='65535']"
+				fullname="AdminRepository.SOLIDWORKSPDMAdministration.Text65535"
+				id="fd64307c417f4c48b66c029828168d9b"
+				timeout="60000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="415"
+				itemindex="77"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:40.323"
+			timeRelativeToTestModuleStartTime="01:40.323"
+			timeWallClock="09:14:36"
+			time="01:40.323"
+			level="Warn"
+			category="Repository">
+			<message>
+				Item 'AdminRepository.SOLIDWORKSPDMAdministration.Text65535' could be found using its absolute path, but not using its relative path from the cached element of parent folder 'AdminRepository.SOLIDWORKSPDMAdministration'. This can happen if either the item search timeout is too small or if items within a rooted folder do not share a common parent element. To fix this problem, first increase the item search timeout. If this does not help, create a separate rooted folder for this item or disable caching for the specified folder.
+			</message>
+			<metainfo
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="416"
+				loglvl="Warn"
+				id="fd64307c417f4c48b66c029828168d9b"
+				path="/form[@title>'SOLIDWORKS PDM Administra']/text[@controlid='65535']"
+				fullname="AdminRepository.SOLIDWORKSPDMAdministration.Text65535"
+				itemindex="77">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:40.717"
+			timeRelativeToTestModuleStartTime="01:40.717"
+			timeWallClock="09:14:36"
+			time="01:40.717"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='The file vault already contains a column set named 'Test'.<br/>Do you want to replace 'File List' column set?') on item 'SOLIDWORKSPDMAdministration.Text65535'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'SOLIDWORKS PDM Administra']/text[@controlid='65535']"
+				itempath="text[@controlid='65535']"
+				fullname="AdminRepository.SOLIDWORKSPDMAdministration.Text65535"
+				id="fd64307c417f4c48b66c029828168d9b"
+				timeout="60000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="419"
+				itemindex="78"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:45.405"
+			timeRelativeToTestModuleStartTime="02:45.405"
+			timeWallClock="09:15:41"
+			time="02:45.405"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

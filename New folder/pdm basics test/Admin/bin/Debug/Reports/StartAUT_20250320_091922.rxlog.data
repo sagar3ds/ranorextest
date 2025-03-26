@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="4.12s"
+		durationms="4118"
+		type="root"
+		rid="1851a41462b2370a"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="SDH16"
+		rxversion="11.7.0.0"
+		host="LZ15-SDH16-DSA"
+		osversion="Windows 11 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="3/20/2025 9:19:25 AM"
+		timestampiso="2025-03-20T13:19:25"
+		endtime="3/20/2025 9:19:29 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="StartAUT">
+		<detail>
+			StartAUT
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.773"
+			timeRelativeToTestModuleStartTime="00:03.773"
+			timeWallClock="09:19:29"
+			time="00:03.773"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>StartAutProcessIDVar
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.787"
+			timeRelativeToTestModuleStartTime="00:03.787"
+			timeWallClock="09:19:29"
+			time="00:03.787"
+			level="Info"
+			category="Application">
+			<message>
+				Run application '&quot;C:\Program Files\SOLIDWORKS PDM\ConisioAdmin.exe&quot;' with arguments 'Administration' in normal mode. Return value bound to $StartAutProcessIDVar.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="95"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.811"
+			timeRelativeToTestModuleStartTime="00:03.811"
+			timeWallClock="09:19:29"
+			time="00:03.811"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 300ms.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="99"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

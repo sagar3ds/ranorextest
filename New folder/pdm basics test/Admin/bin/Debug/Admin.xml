@@ -1,0 +1,2818 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Admin</name>
+    </assembly>
+    <members>
+        <member name="T:Admin.AdminRepository">
+            <summary>
+            The class representing the AdminRepository element repository.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the AdminRepository element repository.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepository.SOLIDWORKSPDMAdministration">
+            <summary>
+            The SOLIDWORKSPDMAdministration folder.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepository.AboutSOLIDWORKSPDMAdministration">
+            <summary>
+            The AboutSOLIDWORKSPDMAdministration folder.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepository.ConisioAdmin">
+            <summary>
+            The ConisioAdmin folder.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepository.ContextMenuHash32768">
+            <summary>
+            The ContextMenuHash32768 folder.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepository.SOLIDWORKSPDMLoginTest">
+            <summary>
+            The SOLIDWORKSPDMLoginTest folder.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepository.SOLIDWORKSPDMLoginKeywordTest">
+            <summary>
+            The SOLIDWORKSPDMLoginKeywordTest folder.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepository.Category">
+            <summary>
+            The Category folder.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepository.Explorer">
+            <summary>
+            The Explorer folder.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepository.SOLIDWORKSPDMAdministrationFileVau">
+            <summary>
+            The SOLIDWORKSPDMAdministrationFileVau folder.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepository.ObjectProperties">
+            <summary>
+            The ObjectProperties folder.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepository.AddUsers">
+            <summary>
+            The AddUsers folder.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepository.NewUser">
+            <summary>
+            The NewUser folder.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepository.List1000">
+            <summary>
+            The List1000 folder.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepository.TestProperties">
+            <summary>
+            The TestProperties folder.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepository.Test2Properties">
+            <summary>
+            The Test2Properties folder.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepository.CustomizableColumnsNewView">
+            <summary>
+            The CustomizableColumnsNewView folder.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepository.CustomizableColumnsTest">
+            <summary>
+            The CustomizableColumnsTest folder.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepository.ABCProperties">
+            <summary>
+            The ABCProperties folder.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepository.CreateNewGroup">
+            <summary>
+            The CreateNewGroup folder.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepository.NewGroup1Properties">
+            <summary>
+            The NewGroup1Properties folder.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepository.AdminProperties">
+            <summary>
+            The AdminProperties folder.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepository.SkypeForBusiness">
+            <summary>
+            The SkypeForBusiness folder.
+            </summary>
+        </member>
+        <member name="T:Admin.AdminRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationAppFolder">
+            <summary>
+            The SOLIDWORKSPDMAdministrationAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new SOLIDWORKSPDMAdministration  folder.
+            </summary>
+        </member>
+        <member name="T:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationAppFolder.SOLIDWORKSPDMAdministrationInfoClass">
+            <summary>
+            The SOLIDWORKSPDMAdministrationInfoClass folder.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationAppFolder.SOLIDWORKSPDMAdministrationInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            SOLIDWORKSPDMAdministrationInfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationAppFolder.SOLIDWORKSPDMAdministrationInfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationAppFolder.SOLIDWORKSPDMAdministrationInfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="T:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationAppFolder.SOLIDWORKSPDMAdministration1InfoClass">
+            <summary>
+            The SOLIDWORKSPDMAdministration1InfoClass folder.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationAppFolder.SOLIDWORKSPDMAdministration1InfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            SOLIDWORKSPDMAdministration1InfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationAppFolder.SOLIDWORKSPDMAdministration1InfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationAppFolder.SOLIDWORKSPDMAdministration1InfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="T:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationAppFolder.ButtonYesInfoClass">
+            <summary>
+            The ButtonYesInfoClass folder.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationAppFolder.ButtonYesInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            ButtonYesInfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationAppFolder.ButtonYesInfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationAppFolder.ButtonYesInfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="T:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationAppFolder.Text65535InfoClass">
+            <summary>
+            The Text65535InfoClass folder.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationAppFolder.Text65535InfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Text65535InfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationAppFolder.Text65535InfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationAppFolder.Text65535InfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationAppFolder.About">
+            <summary>
+            The About item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationAppFolder.AboutInfo">
+            <summary>
+            The About item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationAppFolder.SOLIDWORKSPDMAdministration">
+            <summary>
+            The SOLIDWORKSPDMAdministration item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationAppFolder.SOLIDWORKSPDMAdministrationInfo">
+            <summary>
+            The SOLIDWORKSPDMAdministration item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationAppFolder.SOLIDWORKSPDMAdministration1">
+            <summary>
+            The SOLIDWORKSPDMAdministration1 item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationAppFolder.SOLIDWORKSPDMAdministration1Info">
+            <summary>
+            The SOLIDWORKSPDMAdministration1 item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationAppFolder.ButtonYes">
+            <summary>
+            The ButtonYes item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationAppFolder.ButtonYesInfo">
+            <summary>
+            The ButtonYes item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationAppFolder.Text65535">
+            <summary>
+            The Text65535 item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationAppFolder.Text65535Info">
+            <summary>
+            The Text65535 item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationAppFolder.TitleBar">
+            <summary>
+            The TitleBar item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationAppFolder.TitleBarInfo">
+            <summary>
+            The TitleBar item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationAppFolder.Close">
+            <summary>
+            The Close item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationAppFolder.CloseInfo">
+            <summary>
+            The Close item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationAppFolder.Tree10011">
+            <summary>
+            The Tree10011 folder.
+            </summary>
+        </member>
+        <member name="T:Admin.AdminRepositoryFolders.Tree10011Folder">
+            <summary>
+            The Tree10011Folder folder.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Tree10011Folder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Tree10011  folder.
+            </summary>
+        </member>
+        <member name="T:Admin.AdminRepositoryFolders.Tree10011Folder.Tree1001InfoClass">
+            <summary>
+            The Tree1001InfoClass folder.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Tree10011Folder.Tree1001InfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Tree1001InfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Tree10011Folder.Tree1001InfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Tree10011Folder.Tree1001InfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Tree10011Folder.Tree1001InfoClass.GetScreenshot10">
+            <summary>
+            Gets the Screenshot10 item image.
+            </summary>
+            <returns>The Screenshot10 image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Tree10011Folder.Tree1001InfoClass.GetScreenshot10(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot10 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Tree10011Folder.Tree1001InfoClass.GetScreenshot11">
+            <summary>
+            Gets the Screenshot11 item image.
+            </summary>
+            <returns>The Screenshot11 image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Tree10011Folder.Tree1001InfoClass.GetScreenshot11(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot11 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Tree10011Folder.Tree1001InfoClass.GetScreenshot12">
+            <summary>
+            Gets the Screenshot12 item image.
+            </summary>
+            <returns>The Screenshot12 image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Tree10011Folder.Tree1001InfoClass.GetScreenshot12(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot12 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Tree10011Folder.Tree1001InfoClass.GetScreenshot13">
+            <summary>
+            Gets the Screenshot13 item image.
+            </summary>
+            <returns>The Screenshot13 image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Tree10011Folder.Tree1001InfoClass.GetScreenshot13(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot13 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Tree10011Folder.Tree1001InfoClass.GetScreenshot14">
+            <summary>
+            Gets the Screenshot14 item image.
+            </summary>
+            <returns>The Screenshot14 image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Tree10011Folder.Tree1001InfoClass.GetScreenshot14(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot14 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Tree10011Folder.Tree1001InfoClass.GetScreenshot15">
+            <summary>
+            Gets the Screenshot15 item image.
+            </summary>
+            <returns>The Screenshot15 image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Tree10011Folder.Tree1001InfoClass.GetScreenshot15(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot15 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Tree10011Folder.Tree1001InfoClass.GetScreenshot16">
+            <summary>
+            Gets the Screenshot16 item image.
+            </summary>
+            <returns>The Screenshot16 image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Tree10011Folder.Tree1001InfoClass.GetScreenshot16(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot16 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Tree10011Folder.Tree1001InfoClass.GetScreenshot17">
+            <summary>
+            Gets the Screenshot17 item image.
+            </summary>
+            <returns>The Screenshot17 image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Tree10011Folder.Tree1001InfoClass.GetScreenshot17(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot17 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Tree10011Folder.Tree1001InfoClass.GetScreenshot18">
+            <summary>
+            Gets the Screenshot18 item image.
+            </summary>
+            <returns>The Screenshot18 image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Tree10011Folder.Tree1001InfoClass.GetScreenshot18(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot18 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Tree10011Folder.Tree1001InfoClass.GetScreenshot19">
+            <summary>
+            Gets the Screenshot19 item image.
+            </summary>
+            <returns>The Screenshot19 image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Tree10011Folder.Tree1001InfoClass.GetScreenshot19(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot19 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Tree10011Folder.Tree1001InfoClass.GetScreenshot2">
+            <summary>
+            Gets the Screenshot2 item image.
+            </summary>
+            <returns>The Screenshot2 image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Tree10011Folder.Tree1001InfoClass.GetScreenshot2(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot2 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Tree10011Folder.Tree1001InfoClass.GetScreenshot3">
+            <summary>
+            Gets the Screenshot3 item image.
+            </summary>
+            <returns>The Screenshot3 image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Tree10011Folder.Tree1001InfoClass.GetScreenshot3(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot3 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Tree10011Folder.Tree1001InfoClass.GetScreenshot4">
+            <summary>
+            Gets the Screenshot4 item image.
+            </summary>
+            <returns>The Screenshot4 image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Tree10011Folder.Tree1001InfoClass.GetScreenshot4(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot4 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Tree10011Folder.Tree1001InfoClass.GetScreenshot5">
+            <summary>
+            Gets the Screenshot5 item image.
+            </summary>
+            <returns>The Screenshot5 image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Tree10011Folder.Tree1001InfoClass.GetScreenshot5(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot5 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Tree10011Folder.Tree1001InfoClass.GetScreenshot6">
+            <summary>
+            Gets the Screenshot6 item image.
+            </summary>
+            <returns>The Screenshot6 image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Tree10011Folder.Tree1001InfoClass.GetScreenshot6(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot6 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Tree10011Folder.Tree1001InfoClass.GetScreenshot7">
+            <summary>
+            Gets the Screenshot7 item image.
+            </summary>
+            <returns>The Screenshot7 image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Tree10011Folder.Tree1001InfoClass.GetScreenshot7(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot7 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Tree10011Folder.Tree1001InfoClass.GetScreenshot8">
+            <summary>
+            Gets the Screenshot8 item image.
+            </summary>
+            <returns>The Screenshot8 image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Tree10011Folder.Tree1001InfoClass.GetScreenshot8(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot8 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Tree10011Folder.Tree1001InfoClass.GetScreenshot9">
+            <summary>
+            Gets the Screenshot9 item image.
+            </summary>
+            <returns>The Screenshot9 image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Tree10011Folder.Tree1001InfoClass.GetScreenshot9(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot9 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="T:Admin.AdminRepositoryFolders.Tree10011Folder.Dispatch32050046SolidWorksCorporatInfoClass">
+            <summary>
+            The Dispatch32050046SolidWorksCorporatInfoClass folder.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Tree10011Folder.Dispatch32050046SolidWorksCorporatInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Dispatch32050046SolidWorksCorporatInfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Tree10011Folder.Dispatch32050046SolidWorksCorporatInfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Tree10011Folder.Dispatch32050046SolidWorksCorporatInfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="T:Admin.AdminRepositoryFolders.Tree10011Folder.BillsOfMaterialsInfoClass">
+            <summary>
+            The BillsOfMaterialsInfoClass folder.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Tree10011Folder.BillsOfMaterialsInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            BillsOfMaterialsInfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Tree10011Folder.BillsOfMaterialsInfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Tree10011Folder.BillsOfMaterialsInfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="T:Admin.AdminRepositoryFolders.Tree10011Folder.AddInsInfoClass">
+            <summary>
+            The AddInsInfoClass folder.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Tree10011Folder.AddInsInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            AddInsInfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Tree10011Folder.AddInsInfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Tree10011Folder.AddInsInfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="T:Admin.AdminRepositoryFolders.Tree10011Folder.BillsOfMaterials1InfoClass">
+            <summary>
+            The BillsOfMaterials1InfoClass folder.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Tree10011Folder.BillsOfMaterials1InfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            BillsOfMaterials1InfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Tree10011Folder.BillsOfMaterials1InfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Tree10011Folder.BillsOfMaterials1InfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="T:Admin.AdminRepositoryFolders.Tree10011Folder.CategoriesInfoClass">
+            <summary>
+            The CategoriesInfoClass folder.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Tree10011Folder.CategoriesInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            CategoriesInfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Tree10011Folder.CategoriesInfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Tree10011Folder.CategoriesInfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Tree10011Folder.CategoriesInfoClass.GetScreenshot2">
+            <summary>
+            Gets the Screenshot2 item image.
+            </summary>
+            <returns>The Screenshot2 image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Tree10011Folder.CategoriesInfoClass.GetScreenshot2(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot2 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="T:Admin.AdminRepositoryFolders.Tree10011Folder.SomeIndicatorInfoClass">
+            <summary>
+            The SomeIndicatorInfoClass folder.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Tree10011Folder.SomeIndicatorInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            SomeIndicatorInfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Tree10011Folder.SomeIndicatorInfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Tree10011Folder.SomeIndicatorInfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Tree10011Folder.SomeIndicatorInfoClass.GetScreenshot2">
+            <summary>
+            Gets the Screenshot2 item image.
+            </summary>
+            <returns>The Screenshot2 image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Tree10011Folder.SomeIndicatorInfoClass.GetScreenshot2(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot2 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Tree10011Folder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Tree10011Folder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Tree10011Folder.Tree1001">
+            <summary>
+            The Tree1001 item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Tree10011Folder.Tree1001Info">
+            <summary>
+            The Tree1001 item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Tree10011Folder.Test">
+            <summary>
+            The Test item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Tree10011Folder.TestInfo">
+            <summary>
+            The Test item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Tree10011Folder.Lz15Sdh16Dsa">
+            <summary>
+            The Lz15Sdh16Dsa item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Tree10011Folder.Lz15Sdh16DsaInfo">
+            <summary>
+            The Lz15Sdh16Dsa item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Tree10011Folder.SOLIDWORKSPDMAdministration">
+            <summary>
+            The SOLIDWORKSPDMAdministration item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Tree10011Folder.SOLIDWORKSPDMAdministrationInfo">
+            <summary>
+            The SOLIDWORKSPDMAdministration item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Tree10011Folder.KeywordTest">
+            <summary>
+            The KeywordTest item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Tree10011Folder.KeywordTestInfo">
+            <summary>
+            The KeywordTest item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Tree10011Folder.Dispatch32050046SolidWorksCorporat">
+            <summary>
+            The Dispatch32050046SolidWorksCorporat item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Tree10011Folder.Dispatch32050046SolidWorksCorporatInfo">
+            <summary>
+            The Dispatch32050046SolidWorksCorporat item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Tree10011Folder.BillsOfMaterials">
+            <summary>
+            The BillsOfMaterials item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Tree10011Folder.BillsOfMaterialsInfo">
+            <summary>
+            The BillsOfMaterials item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Tree10011Folder.CEPA">
+            <summary>
+            The CEPA item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Tree10011Folder.CEPAInfo">
+            <summary>
+            The CEPA item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Tree10011Folder.KeywordTestAdmin">
+            <summary>
+            The KeywordTestAdmin item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Tree10011Folder.KeywordTestAdminInfo">
+            <summary>
+            The KeywordTestAdmin item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Tree10011Folder.AddIns">
+            <summary>
+            The AddIns item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Tree10011Folder.AddInsInfo">
+            <summary>
+            The AddIns item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Tree10011Folder.BillsOfMaterials1">
+            <summary>
+            The BillsOfMaterials1 item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Tree10011Folder.BillsOfMaterials1Info">
+            <summary>
+            The BillsOfMaterials1 item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Tree10011Folder.Categories">
+            <summary>
+            The Categories item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Tree10011Folder.CategoriesInfo">
+            <summary>
+            The Categories item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Tree10011Folder.SomeIndicator">
+            <summary>
+            The SomeIndicator item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Tree10011Folder.SomeIndicatorInfo">
+            <summary>
+            The SomeIndicator item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Tree10011Folder.NotificationTemplates">
+            <summary>
+            The NotificationTemplates item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Tree10011Folder.NotificationTemplatesInfo">
+            <summary>
+            The NotificationTemplates item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Tree10011Folder.UsersAndGroupsManagement">
+            <summary>
+            The UsersAndGroupsManagement item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Tree10011Folder.UsersAndGroupsManagementInfo">
+            <summary>
+            The UsersAndGroupsManagement item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Tree10011Folder.Users">
+            <summary>
+            The Users item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Tree10011Folder.UsersInfo">
+            <summary>
+            The Users item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Tree10011Folder.TestTest">
+            <summary>
+            The TestTest item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Tree10011Folder.TestTestInfo">
+            <summary>
+            The TestTest item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Tree10011Folder.Down">
+            <summary>
+            The Down item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Tree10011Folder.DownInfo">
+            <summary>
+            The Down item info.
+            </summary>
+        </member>
+        <member name="T:Admin.AdminRepositoryFolders.AboutSOLIDWORKSPDMAdministrationAppFolder">
+            <summary>
+            The AboutSOLIDWORKSPDMAdministrationAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.AboutSOLIDWORKSPDMAdministrationAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new AboutSOLIDWORKSPDMAdministration  folder.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.AboutSOLIDWORKSPDMAdministrationAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.AboutSOLIDWORKSPDMAdministrationAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.AboutSOLIDWORKSPDMAdministrationAppFolder.Text1021">
+            <summary>
+            The Text1021 item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.AboutSOLIDWORKSPDMAdministrationAppFolder.Text1021Info">
+            <summary>
+            The Text1021 item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.AboutSOLIDWORKSPDMAdministrationAppFolder.Text1571">
+            <summary>
+            The Text1571 item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.AboutSOLIDWORKSPDMAdministrationAppFolder.Text1571Info">
+            <summary>
+            The Text1571 item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.AboutSOLIDWORKSPDMAdministrationAppFolder.ComboBox1567">
+            <summary>
+            The ComboBox1567 item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.AboutSOLIDWORKSPDMAdministrationAppFolder.ComboBox1567Info">
+            <summary>
+            The ComboBox1567 item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.AboutSOLIDWORKSPDMAdministrationAppFolder.ButtonOK">
+            <summary>
+            The ButtonOK item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.AboutSOLIDWORKSPDMAdministrationAppFolder.ButtonOKInfo">
+            <summary>
+            The ButtonOK item info.
+            </summary>
+        </member>
+        <member name="T:Admin.AdminRepositoryFolders.ConisioAdminAppFolder">
+            <summary>
+            The ConisioAdminAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.ConisioAdminAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ConisioAdmin  folder.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.ConisioAdminAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.ConisioAdminAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.ConisioAdminAppFolder.Refresh">
+            <summary>
+            The Refresh item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.ConisioAdminAppFolder.RefreshInfo">
+            <summary>
+            The Refresh item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.ConisioAdminAppFolder.Explore">
+            <summary>
+            The Explore item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.ConisioAdminAppFolder.ExploreInfo">
+            <summary>
+            The Explore item info.
+            </summary>
+        </member>
+        <member name="T:Admin.AdminRepositoryFolders.ContextMenuHash32768AppFolder">
+            <summary>
+            The ContextMenuHash32768AppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.ContextMenuHash32768AppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ContextMenuHash32768  folder.
+            </summary>
+        </member>
+        <member name="T:Admin.AdminRepositoryFolders.ContextMenuHash32768AppFolder.NoneInfoClass">
+            <summary>
+            The NoneInfoClass folder.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.ContextMenuHash32768AppFolder.NoneInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            NoneInfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.ContextMenuHash32768AppFolder.NoneInfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.ContextMenuHash32768AppFolder.NoneInfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.ContextMenuHash32768AppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.ContextMenuHash32768AppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.ContextMenuHash32768AppFolder.None">
+            <summary>
+            The None item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.ContextMenuHash32768AppFolder.NoneInfo">
+            <summary>
+            The None item info.
+            </summary>
+        </member>
+        <member name="T:Admin.AdminRepositoryFolders.SOLIDWORKSPDMLoginTestAppFolder">
+            <summary>
+            The SOLIDWORKSPDMLoginTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.SOLIDWORKSPDMLoginTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new SOLIDWORKSPDMLoginTest  folder.
+            </summary>
+        </member>
+        <member name="T:Admin.AdminRepositoryFolders.SOLIDWORKSPDMLoginTestAppFolder.SOLIDWORKSPDMLoginTestInfoClass">
+            <summary>
+            The SOLIDWORKSPDMLoginTestInfoClass folder.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.SOLIDWORKSPDMLoginTestAppFolder.SOLIDWORKSPDMLoginTestInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            SOLIDWORKSPDMLoginTestInfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.SOLIDWORKSPDMLoginTestAppFolder.SOLIDWORKSPDMLoginTestInfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.SOLIDWORKSPDMLoginTestAppFolder.SOLIDWORKSPDMLoginTestInfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.SOLIDWORKSPDMLoginTestAppFolder.SOLIDWORKSPDMLoginTestInfoClass.GetScreenshot2">
+            <summary>
+            Gets the Screenshot2 item image.
+            </summary>
+            <returns>The Screenshot2 image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.SOLIDWORKSPDMLoginTestAppFolder.SOLIDWORKSPDMLoginTestInfoClass.GetScreenshot2(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot2 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.SOLIDWORKSPDMLoginTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.SOLIDWORKSPDMLoginTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.SOLIDWORKSPDMLoginTestAppFolder.SOLIDWORKSPDMLoginTest">
+            <summary>
+            The SOLIDWORKSPDMLoginTest item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.SOLIDWORKSPDMLoginTestAppFolder.SOLIDWORKSPDMLoginTestInfo">
+            <summary>
+            The SOLIDWORKSPDMLoginTest item info.
+            </summary>
+        </member>
+        <member name="T:Admin.AdminRepositoryFolders.SOLIDWORKSPDMLoginKeywordTestAppFolder">
+            <summary>
+            The SOLIDWORKSPDMLoginKeywordTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.SOLIDWORKSPDMLoginKeywordTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new SOLIDWORKSPDMLoginKeywordTest  folder.
+            </summary>
+        </member>
+        <member name="T:Admin.AdminRepositoryFolders.SOLIDWORKSPDMLoginKeywordTestAppFolder.SOLIDWORKSPDMLoginKeywordTestInfoClass">
+            <summary>
+            The SOLIDWORKSPDMLoginKeywordTestInfoClass folder.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.SOLIDWORKSPDMLoginKeywordTestAppFolder.SOLIDWORKSPDMLoginKeywordTestInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            SOLIDWORKSPDMLoginKeywordTestInfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.SOLIDWORKSPDMLoginKeywordTestAppFolder.SOLIDWORKSPDMLoginKeywordTestInfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.SOLIDWORKSPDMLoginKeywordTestAppFolder.SOLIDWORKSPDMLoginKeywordTestInfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.SOLIDWORKSPDMLoginKeywordTestAppFolder.SOLIDWORKSPDMLoginKeywordTestInfoClass.GetScreenshot2">
+            <summary>
+            Gets the Screenshot2 item image.
+            </summary>
+            <returns>The Screenshot2 image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.SOLIDWORKSPDMLoginKeywordTestAppFolder.SOLIDWORKSPDMLoginKeywordTestInfoClass.GetScreenshot2(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot2 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.SOLIDWORKSPDMLoginKeywordTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.SOLIDWORKSPDMLoginKeywordTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.SOLIDWORKSPDMLoginKeywordTestAppFolder.SOLIDWORKSPDMLoginKeywordTest">
+            <summary>
+            The SOLIDWORKSPDMLoginKeywordTest item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.SOLIDWORKSPDMLoginKeywordTestAppFolder.SOLIDWORKSPDMLoginKeywordTestInfo">
+            <summary>
+            The SOLIDWORKSPDMLoginKeywordTest item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.SOLIDWORKSPDMLoginKeywordTestAppFolder.Text2001">
+            <summary>
+            The Text2001 item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.SOLIDWORKSPDMLoginKeywordTestAppFolder.Text2001Info">
+            <summary>
+            The Text2001 item info.
+            </summary>
+        </member>
+        <member name="T:Admin.AdminRepositoryFolders.CategoryAppFolder">
+            <summary>
+            The CategoryAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.CategoryAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Category  folder.
+            </summary>
+        </member>
+        <member name="T:Admin.AdminRepositoryFolders.CategoryAppFolder.Text3000InfoClass">
+            <summary>
+            The Text3000InfoClass folder.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.CategoryAppFolder.Text3000InfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Text3000InfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.CategoryAppFolder.Text3000InfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.CategoryAppFolder.Text3000InfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.CategoryAppFolder.Text3000InfoClass.GetScreenshot2">
+            <summary>
+            Gets the Screenshot2 item image.
+            </summary>
+            <returns>The Screenshot2 image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.CategoryAppFolder.Text3000InfoClass.GetScreenshot2(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot2 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="T:Admin.AdminRepositoryFolders.CategoryAppFolder.ButtonOKInfoClass">
+            <summary>
+            The ButtonOKInfoClass folder.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.CategoryAppFolder.ButtonOKInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            ButtonOKInfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.CategoryAppFolder.ButtonOKInfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.CategoryAppFolder.ButtonOKInfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CategoryAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CategoryAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CategoryAppFolder.Text3000">
+            <summary>
+            The Text3000 item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CategoryAppFolder.Text3000Info">
+            <summary>
+            The Text3000 item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CategoryAppFolder.ButtonOK">
+            <summary>
+            The ButtonOK item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CategoryAppFolder.ButtonOKInfo">
+            <summary>
+            The ButtonOK item info.
+            </summary>
+        </member>
+        <member name="T:Admin.AdminRepositoryFolders.ExplorerAppFolder">
+            <summary>
+            The ExplorerAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.ExplorerAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Explorer  folder.
+            </summary>
+        </member>
+        <member name="T:Admin.AdminRepositoryFolders.ExplorerAppFolder.List1InfoClass">
+            <summary>
+            The List1InfoClass folder.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.ExplorerAppFolder.List1InfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            List1InfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.ExplorerAppFolder.List1InfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.ExplorerAppFolder.List1InfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.ExplorerAppFolder.List1InfoClass.GetScreenshot2">
+            <summary>
+            Gets the Screenshot2 item image.
+            </summary>
+            <returns>The Screenshot2 image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.ExplorerAppFolder.List1InfoClass.GetScreenshot2(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot2 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.ExplorerAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.ExplorerAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.ExplorerAppFolder.List1">
+            <summary>
+            The List1 item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.ExplorerAppFolder.List1Info">
+            <summary>
+            The List1 item info.
+            </summary>
+        </member>
+        <member name="T:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationFileVauAppFolder">
+            <summary>
+            The SOLIDWORKSPDMAdministrationFileVauAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationFileVauAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new SOLIDWORKSPDMAdministrationFileVau  folder.
+            </summary>
+        </member>
+        <member name="T:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationFileVauAppFolder.TitleBarInfoClass">
+            <summary>
+            The TitleBarInfoClass folder.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationFileVauAppFolder.TitleBarInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            TitleBarInfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationFileVauAppFolder.TitleBarInfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationFileVauAppFolder.TitleBarInfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationFileVauAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationFileVauAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationFileVauAppFolder.Maximize">
+            <summary>
+            The Maximize item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationFileVauAppFolder.MaximizeInfo">
+            <summary>
+            The Maximize item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationFileVauAppFolder.TitleBar">
+            <summary>
+            The TitleBar item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationFileVauAppFolder.TitleBarInfo">
+            <summary>
+            The TitleBar item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationFileVauAppFolder.PDFCard">
+            <summary>
+            The PDFCard item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationFileVauAppFolder.PDFCardInfo">
+            <summary>
+            The PDFCard item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationFileVauAppFolder.Maximize1">
+            <summary>
+            The Maximize1 item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationFileVauAppFolder.Maximize1Info">
+            <summary>
+            The Maximize1 item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationFileVauAppFolder.Tree1001">
+            <summary>
+            The Tree1001 item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationFileVauAppFolder.Tree1001Info">
+            <summary>
+            The Tree1001 item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationFileVauAppFolder.Users">
+            <summary>
+            The Users item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationFileVauAppFolder.UsersInfo">
+            <summary>
+            The Users item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationFileVauAppFolder.Columns">
+            <summary>
+            The Columns item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationFileVauAppFolder.ColumnsInfo">
+            <summary>
+            The Columns item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationFileVauAppFolder.SomeIndicator">
+            <summary>
+            The SomeIndicator item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationFileVauAppFolder.SomeIndicatorInfo">
+            <summary>
+            The SomeIndicator item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationFileVauAppFolder.Groups">
+            <summary>
+            The Groups item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationFileVauAppFolder.GroupsInfo">
+            <summary>
+            The Groups item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationFileVauAppFolder.TitleBar1">
+            <summary>
+            The TitleBar1 item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationFileVauAppFolder.TitleBar1Info">
+            <summary>
+            The TitleBar1 item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationFileVauAppFolder.Form65280">
+            <summary>
+            The Form65280 folder.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.SOLIDWORKSPDMAdministrationFileVauAppFolder.Tree10011">
+            <summary>
+            The Tree10011 folder.
+            </summary>
+        </member>
+        <member name="T:Admin.AdminRepositoryFolders.Form65280Folder">
+            <summary>
+            The Form65280Folder folder.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Form65280Folder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Form65280  folder.
+            </summary>
+        </member>
+        <member name="T:Admin.AdminRepositoryFolders.Form65280Folder.CheckBoxGetInfoClass">
+            <summary>
+            The CheckBoxGetInfoClass folder.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Form65280Folder.CheckBoxGetInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            CheckBoxGetInfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Form65280Folder.CheckBoxGetInfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Form65280Folder.CheckBoxGetInfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="T:Admin.AdminRepositoryFolders.Form65280Folder.Text1518InfoClass">
+            <summary>
+            The Text1518InfoClass folder.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Form65280Folder.Text1518InfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Text1518InfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Form65280Folder.Text1518InfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Form65280Folder.Text1518InfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Form65280Folder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Form65280Folder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Form65280Folder.ButtonPermitLogIns">
+            <summary>
+            The ButtonPermitLogIns item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Form65280Folder.ButtonPermitLogInsInfo">
+            <summary>
+            The ButtonPermitLogIns item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Form65280Folder.CheckBoxGet">
+            <summary>
+            The CheckBoxGet item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Form65280Folder.CheckBoxGetInfo">
+            <summary>
+            The CheckBoxGet item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Form65280Folder.LogInAndLogOut">
+            <summary>
+            The LogInAndLogOut item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Form65280Folder.LogInAndLogOutInfo">
+            <summary>
+            The LogInAndLogOut item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Form65280Folder.IncludeRefreshCacheDuringLogIn">
+            <summary>
+            The IncludeRefreshCacheDuringLogIn item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Form65280Folder.IncludeRefreshCacheDuringLogInInfo">
+            <summary>
+            The IncludeRefreshCacheDuringLogIn item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Form65280Folder.Text1516">
+            <summary>
+            The Text1516 item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Form65280Folder.Text1516Info">
+            <summary>
+            The Text1516 item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Form65280Folder.Text1518">
+            <summary>
+            The Text1518 item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Form65280Folder.Text1518Info">
+            <summary>
+            The Text1518 item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Form65280Folder.Admin">
+            <summary>
+            The Admin item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Form65280Folder.AdminInfo">
+            <summary>
+            The Admin item info.
+            </summary>
+        </member>
+        <member name="T:Admin.AdminRepositoryFolders.Tree10011Folder1">
+            <summary>
+            The Tree10011Folder1 folder.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Tree10011Folder1.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Tree10011  folder.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Tree10011Folder1.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Tree10011Folder1.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Tree10011Folder1.Items">
+            <summary>
+            The Items item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Tree10011Folder1.ItemsInfo">
+            <summary>
+            The Items item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Tree10011Folder1.UsersAndGroupsManagement">
+            <summary>
+            The UsersAndGroupsManagement item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Tree10011Folder1.UsersAndGroupsManagementInfo">
+            <summary>
+            The UsersAndGroupsManagement item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Tree10011Folder1.AdminSystemAdministrator">
+            <summary>
+            The AdminSystemAdministrator item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Tree10011Folder1.AdminSystemAdministratorInfo">
+            <summary>
+            The AdminSystemAdministrator item info.
+            </summary>
+        </member>
+        <member name="T:Admin.AdminRepositoryFolders.ObjectPropertiesAppFolder">
+            <summary>
+            The ObjectPropertiesAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.ObjectPropertiesAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ObjectProperties  folder.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.ObjectPropertiesAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.ObjectPropertiesAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.ObjectPropertiesAppFolder.ButtonOK">
+            <summary>
+            The ButtonOK item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.ObjectPropertiesAppFolder.ButtonOKInfo">
+            <summary>
+            The ButtonOK item info.
+            </summary>
+        </member>
+        <member name="T:Admin.AdminRepositoryFolders.AddUsersAppFolder">
+            <summary>
+            The AddUsersAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.AddUsersAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new AddUsers  folder.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.AddUsersAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.AddUsersAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.AddUsersAppFolder.NewSOLIDWORKSPDMUser">
+            <summary>
+            The NewSOLIDWORKSPDMUser item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.AddUsersAppFolder.NewSOLIDWORKSPDMUserInfo">
+            <summary>
+            The NewSOLIDWORKSPDMUser item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.AddUsersAppFolder.ComboBox4033">
+            <summary>
+            The ComboBox4033 item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.AddUsersAppFolder.ComboBox4033Info">
+            <summary>
+            The ComboBox4033 item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.AddUsersAppFolder.Next">
+            <summary>
+            The Next item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.AddUsersAppFolder.NextInfo">
+            <summary>
+            The Next item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.AddUsersAppFolder.Test">
+            <summary>
+            The Test item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.AddUsersAppFolder.TestInfo">
+            <summary>
+            The Test item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.AddUsersAppFolder.Text4007">
+            <summary>
+            The Text4007 item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.AddUsersAppFolder.Text4007Info">
+            <summary>
+            The Text4007 item info.
+            </summary>
+        </member>
+        <member name="T:Admin.AdminRepositoryFolders.NewUserAppFolder">
+            <summary>
+            The NewUserAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.NewUserAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new NewUser  folder.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.NewUserAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.NewUserAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.NewUserAppFolder.Text4037">
+            <summary>
+            The Text4037 item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.NewUserAppFolder.Text4037Info">
+            <summary>
+            The Text4037 item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.NewUserAppFolder.ButtonOK">
+            <summary>
+            The ButtonOK item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.NewUserAppFolder.ButtonOKInfo">
+            <summary>
+            The ButtonOK item info.
+            </summary>
+        </member>
+        <member name="T:Admin.AdminRepositoryFolders.List1000AppFolder">
+            <summary>
+            The List1000AppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.List1000AppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new List1000  folder.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.List1000AppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.List1000AppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.List1000AppFolder.Admin">
+            <summary>
+            The Admin item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.List1000AppFolder.AdminInfo">
+            <summary>
+            The Admin item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.List1000AppFolder.ListItemType">
+            <summary>
+            The ListItemType item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.List1000AppFolder.ListItemTypeInfo">
+            <summary>
+            The ListItemType item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.List1000AppFolder.Descending">
+            <summary>
+            The Descending item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.List1000AppFolder.DescendingInfo">
+            <summary>
+            The Descending item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.List1000AppFolder.SomeListItem">
+            <summary>
+            The SomeListItem item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.List1000AppFolder.SomeListItemInfo">
+            <summary>
+            The SomeListItem item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.List1000AppFolder.SomeListItem1">
+            <summary>
+            The SomeListItem1 item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.List1000AppFolder.SomeListItem1Info">
+            <summary>
+            The SomeListItem1 item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.List1000AppFolder.SomeListItem2">
+            <summary>
+            The SomeListItem2 item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.List1000AppFolder.SomeListItem2Info">
+            <summary>
+            The SomeListItem2 item info.
+            </summary>
+        </member>
+        <member name="T:Admin.AdminRepositoryFolders.TestPropertiesAppFolder">
+            <summary>
+            The TestPropertiesAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.TestPropertiesAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new TestProperties  folder.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.TestPropertiesAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.TestPropertiesAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.TestPropertiesAppFolder.Text4161">
+            <summary>
+            The Text4161 item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.TestPropertiesAppFolder.Text4161Info">
+            <summary>
+            The Text4161 item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.TestPropertiesAppFolder.ButtonOK">
+            <summary>
+            The ButtonOK item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.TestPropertiesAppFolder.ButtonOKInfo">
+            <summary>
+            The ButtonOK item info.
+            </summary>
+        </member>
+        <member name="T:Admin.AdminRepositoryFolders.Test2PropertiesAppFolder">
+            <summary>
+            The Test2PropertiesAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Test2PropertiesAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Test2Properties  folder.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Test2PropertiesAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Test2PropertiesAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Test2PropertiesAppFolder.LineDown">
+            <summary>
+            The LineDown item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Test2PropertiesAppFolder.LineDownInfo">
+            <summary>
+            The LineDown item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Test2PropertiesAppFolder.ButtonOK">
+            <summary>
+            The ButtonOK item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Test2PropertiesAppFolder.ButtonOKInfo">
+            <summary>
+            The ButtonOK item info.
+            </summary>
+        </member>
+        <member name="T:Admin.AdminRepositoryFolders.CustomizableColumnsNewViewAppFolder">
+            <summary>
+            The CustomizableColumnsNewViewAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.CustomizableColumnsNewViewAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new CustomizableColumnsNewView  folder.
+            </summary>
+        </member>
+        <member name="T:Admin.AdminRepositoryFolders.CustomizableColumnsNewViewAppFolder.ButtonOKInfoClass">
+            <summary>
+            The ButtonOKInfoClass folder.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.CustomizableColumnsNewViewAppFolder.ButtonOKInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            ButtonOKInfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.CustomizableColumnsNewViewAppFolder.ButtonOKInfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.CustomizableColumnsNewViewAppFolder.ButtonOKInfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CustomizableColumnsNewViewAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CustomizableColumnsNewViewAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CustomizableColumnsNewViewAppFolder.ButtonAdd">
+            <summary>
+            The ButtonAdd item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CustomizableColumnsNewViewAppFolder.ButtonAddInfo">
+            <summary>
+            The ButtonAdd item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CustomizableColumnsNewViewAppFolder.CellArchiveServerPath">
+            <summary>
+            The CellArchiveServerPath item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CustomizableColumnsNewViewAppFolder.CellArchiveServerPathInfo">
+            <summary>
+            The CellArchiveServerPath item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CustomizableColumnsNewViewAppFolder.Delete">
+            <summary>
+            The Delete item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CustomizableColumnsNewViewAppFolder.DeleteInfo">
+            <summary>
+            The Delete item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CustomizableColumnsNewViewAppFolder.Reset">
+            <summary>
+            The Reset item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CustomizableColumnsNewViewAppFolder.ResetInfo">
+            <summary>
+            The Reset item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CustomizableColumnsNewViewAppFolder.ButtonOK">
+            <summary>
+            The ButtonOK item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CustomizableColumnsNewViewAppFolder.ButtonOKInfo">
+            <summary>
+            The ButtonOK item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CustomizableColumnsNewViewAppFolder.ComboBox9003">
+            <summary>
+            The ComboBox9003 item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CustomizableColumnsNewViewAppFolder.ComboBox9003Info">
+            <summary>
+            The ComboBox9003 item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CustomizableColumnsNewViewAppFolder.CellState">
+            <summary>
+            The CellState item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CustomizableColumnsNewViewAppFolder.CellStateInfo">
+            <summary>
+            The CellState item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CustomizableColumnsNewViewAppFolder.CellArchiveServerPath1">
+            <summary>
+            The CellArchiveServerPath1 item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CustomizableColumnsNewViewAppFolder.CellArchiveServerPath1Info">
+            <summary>
+            The CellArchiveServerPath1 item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CustomizableColumnsNewViewAppFolder.ComboBox9033">
+            <summary>
+            The ComboBox9033 item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CustomizableColumnsNewViewAppFolder.ComboBox9033Info">
+            <summary>
+            The ComboBox9033 item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CustomizableColumnsNewViewAppFolder.Permissions">
+            <summary>
+            The Permissions item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CustomizableColumnsNewViewAppFolder.PermissionsInfo">
+            <summary>
+            The Permissions item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CustomizableColumnsNewViewAppFolder.Close">
+            <summary>
+            The Close item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CustomizableColumnsNewViewAppFolder.CloseInfo">
+            <summary>
+            The Close item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CustomizableColumnsNewViewAppFolder.SelectedColumn">
+            <summary>
+            The SelectedColumn item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CustomizableColumnsNewViewAppFolder.SelectedColumnInfo">
+            <summary>
+            The SelectedColumn item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CustomizableColumnsNewViewAppFolder.Table9037">
+            <summary>
+            The Table9037 folder.
+            </summary>
+        </member>
+        <member name="T:Admin.AdminRepositoryFolders.Table9037Folder">
+            <summary>
+            The Table9037Folder folder.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.Table9037Folder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Table9037  folder.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Table9037Folder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Table9037Folder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Table9037Folder.SomeCell">
+            <summary>
+            The SomeCell item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Table9037Folder.SomeCellInfo">
+            <summary>
+            The SomeCell item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Table9037Folder.SomeCell1">
+            <summary>
+            The SomeCell1 item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Table9037Folder.SomeCell1Info">
+            <summary>
+            The SomeCell1 item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Table9037Folder.View">
+            <summary>
+            The View item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.Table9037Folder.ViewInfo">
+            <summary>
+            The View item info.
+            </summary>
+        </member>
+        <member name="T:Admin.AdminRepositoryFolders.CustomizableColumnsTestAppFolder">
+            <summary>
+            The CustomizableColumnsTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.CustomizableColumnsTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new CustomizableColumnsTest  folder.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CustomizableColumnsTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CustomizableColumnsTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CustomizableColumnsTestAppFolder.ButtonU">
+            <summary>
+            The ButtonU item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CustomizableColumnsTestAppFolder.ButtonUInfo">
+            <summary>
+            The ButtonU item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CustomizableColumnsTestAppFolder.ButtonD">
+            <summary>
+            The ButtonD item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CustomizableColumnsTestAppFolder.ButtonDInfo">
+            <summary>
+            The ButtonD item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CustomizableColumnsTestAppFolder.ButtonB">
+            <summary>
+            The ButtonB item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CustomizableColumnsTestAppFolder.ButtonBInfo">
+            <summary>
+            The ButtonB item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CustomizableColumnsTestAppFolder.ButtonT">
+            <summary>
+            The ButtonT item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CustomizableColumnsTestAppFolder.ButtonTInfo">
+            <summary>
+            The ButtonT item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CustomizableColumnsTestAppFolder.ComboBox9032">
+            <summary>
+            The ComboBox9032 item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CustomizableColumnsTestAppFolder.ComboBox9032Info">
+            <summary>
+            The ComboBox9032 item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CustomizableColumnsTestAppFolder.ComboBox9033">
+            <summary>
+            The ComboBox9033 item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CustomizableColumnsTestAppFolder.ComboBox9033Info">
+            <summary>
+            The ComboBox9033 item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CustomizableColumnsTestAppFolder.Permissions">
+            <summary>
+            The Permissions item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CustomizableColumnsTestAppFolder.PermissionsInfo">
+            <summary>
+            The Permissions item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CustomizableColumnsTestAppFolder.SomeCell">
+            <summary>
+            The SomeCell item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CustomizableColumnsTestAppFolder.SomeCellInfo">
+            <summary>
+            The SomeCell item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CustomizableColumnsTestAppFolder.Columns">
+            <summary>
+            The Columns item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CustomizableColumnsTestAppFolder.ColumnsInfo">
+            <summary>
+            The Columns item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CustomizableColumnsTestAppFolder.ButtonOK">
+            <summary>
+            The ButtonOK item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CustomizableColumnsTestAppFolder.ButtonOKInfo">
+            <summary>
+            The ButtonOK item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CustomizableColumnsTestAppFolder.TitleBar">
+            <summary>
+            The TitleBar item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CustomizableColumnsTestAppFolder.TitleBarInfo">
+            <summary>
+            The TitleBar item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CustomizableColumnsTestAppFolder.TabPageList9025">
+            <summary>
+            The TabPageList9025 item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CustomizableColumnsTestAppFolder.TabPageList9025Info">
+            <summary>
+            The TabPageList9025 item info.
+            </summary>
+        </member>
+        <member name="T:Admin.AdminRepositoryFolders.ABCPropertiesAppFolder">
+            <summary>
+            The ABCPropertiesAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.ABCPropertiesAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ABCProperties  folder.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.ABCPropertiesAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.ABCPropertiesAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.ABCPropertiesAppFolder.ButtonOK">
+            <summary>
+            The ButtonOK item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.ABCPropertiesAppFolder.ButtonOKInfo">
+            <summary>
+            The ButtonOK item info.
+            </summary>
+        </member>
+        <member name="T:Admin.AdminRepositoryFolders.CreateNewGroupAppFolder">
+            <summary>
+            The CreateNewGroupAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.CreateNewGroupAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new CreateNewGroup  folder.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CreateNewGroupAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CreateNewGroupAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CreateNewGroupAppFolder.Text4045">
+            <summary>
+            The Text4045 item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CreateNewGroupAppFolder.Text4045Info">
+            <summary>
+            The Text4045 item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CreateNewGroupAppFolder.CreateNewGroup">
+            <summary>
+            The CreateNewGroup item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CreateNewGroupAppFolder.CreateNewGroupInfo">
+            <summary>
+            The CreateNewGroup item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CreateNewGroupAppFolder.Next">
+            <summary>
+            The Next item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.CreateNewGroupAppFolder.NextInfo">
+            <summary>
+            The Next item info.
+            </summary>
+        </member>
+        <member name="T:Admin.AdminRepositoryFolders.NewGroup1PropertiesAppFolder">
+            <summary>
+            The NewGroup1PropertiesAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.NewGroup1PropertiesAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new NewGroup1Properties  folder.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.NewGroup1PropertiesAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.NewGroup1PropertiesAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.NewGroup1PropertiesAppFolder.NewGroup1Properties">
+            <summary>
+            The NewGroup1Properties item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.NewGroup1PropertiesAppFolder.NewGroup1PropertiesInfo">
+            <summary>
+            The NewGroup1Properties item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.NewGroup1PropertiesAppFolder.ButtonOK">
+            <summary>
+            The ButtonOK item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.NewGroup1PropertiesAppFolder.ButtonOKInfo">
+            <summary>
+            The ButtonOK item info.
+            </summary>
+        </member>
+        <member name="T:Admin.AdminRepositoryFolders.AdminPropertiesAppFolder">
+            <summary>
+            The AdminPropertiesAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.AdminPropertiesAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new AdminProperties  folder.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.AdminPropertiesAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.AdminPropertiesAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.AdminPropertiesAppFolder.AdminProperties">
+            <summary>
+            The AdminProperties item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.AdminPropertiesAppFolder.AdminPropertiesInfo">
+            <summary>
+            The AdminProperties item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.AdminPropertiesAppFolder.PDMDatasetToSagar">
+            <summary>
+            The PDMDatasetToSagar item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.AdminPropertiesAppFolder.PDMDatasetToSagarInfo">
+            <summary>
+            The PDMDatasetToSagar item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.AdminPropertiesAppFolder.AssignedFolderPermissions">
+            <summary>
+            The AssignedFolderPermissions item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.AdminPropertiesAppFolder.AssignedFolderPermissionsInfo">
+            <summary>
+            The AssignedFolderPermissions item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.AdminPropertiesAppFolder.CKeywordTest">
+            <summary>
+            The CKeywordTest item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.AdminPropertiesAppFolder.CKeywordTestInfo">
+            <summary>
+            The CKeywordTest item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.AdminPropertiesAppFolder.ButtonOK">
+            <summary>
+            The ButtonOK item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.AdminPropertiesAppFolder.ButtonOKInfo">
+            <summary>
+            The ButtonOK item info.
+            </summary>
+        </member>
+        <member name="T:Admin.AdminRepositoryFolders.SkypeForBusinessAppFolder">
+            <summary>
+            The SkypeForBusinessAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Admin.AdminRepositoryFolders.SkypeForBusinessAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new SkypeForBusiness  folder.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.SkypeForBusinessAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.SkypeForBusinessAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.SkypeForBusinessAppFolder.IdContactPhoto">
+            <summary>
+            The IdContactPhoto item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.SkypeForBusinessAppFolder.IdContactPhotoInfo">
+            <summary>
+            The IdContactPhoto item info.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.SkypeForBusinessAppFolder.NetUISimpleButton">
+            <summary>
+            The NetUISimpleButton item.
+            </summary>
+        </member>
+        <member name="P:Admin.AdminRepositoryFolders.SkypeForBusinessAppFolder.NetUISimpleButtonInfo">
+            <summary>
+            The NetUISimpleButton item info.
+            </summary>
+        </member>
+        <member name="T:Admin.CloseAUT">
+             <summary>
+            The CloseAUT recording.
+             </summary>
+        </member>
+        <member name="F:Admin.CloseAUT.repo">
+            <summary>
+            Holds an instance of the AdminRepository repository.
+            </summary>
+        </member>
+        <member name="M:Admin.CloseAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Admin.CloseAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Admin.CloseAUT.CloseAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable CloseAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="M:Admin.CloseAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Admin.CloseAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Admin.CloseAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Admin.CloseAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Admin.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:Admin.Recording1.repo">
+            <summary>
+            Holds an instance of the AdminRepository repository.
+            </summary>
+        </member>
+        <member name="M:Admin.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Admin.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Admin.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Admin.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Admin.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Admin.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Admin.StartAUT">
+             <summary>
+            The StartAUT recording.
+             </summary>
+        </member>
+        <member name="F:Admin.StartAUT.repo">
+            <summary>
+            Holds an instance of the AdminRepository repository.
+            </summary>
+        </member>
+        <member name="M:Admin.StartAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Admin.StartAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Admin.StartAUT.StartAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable StartAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="M:Admin.StartAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Admin.StartAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Admin.StartAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Admin.StartAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Admin.Users">
+             <summary>
+            The Users recording.
+             </summary>
+        </member>
+        <member name="F:Admin.Users.repo">
+            <summary>
+            Holds an instance of the AdminRepository repository.
+            </summary>
+        </member>
+        <member name="M:Admin.Users.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Admin.Users.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Admin.Users.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Admin.Users.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Admin.Users.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Admin.Users.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

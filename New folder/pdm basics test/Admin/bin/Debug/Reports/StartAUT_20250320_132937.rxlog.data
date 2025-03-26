@@ -1,0 +1,550 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="29.68s"
+		durationms="29679"
+		type="root"
+		rid="1a84780ce9341435"
+		totalerrorcount="1"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="SDH16"
+		rxversion="11.7.0.0"
+		host="LZ15-SDH16-DSA"
+		osversion="Windows 11 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="3/20/2025 1:29:39 PM"
+		timestampiso="2025-03-20T17:29:39"
+		endtime="3/20/2025 1:30:09 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="StartAUT">
+		<detail>
+			StartAUT
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.434"
+			timeRelativeToTestModuleStartTime="00:03.434"
+			timeWallClock="13:29:43"
+			time="00:03.434"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>StartAutProcessIDVar
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.449"
+			timeRelativeToTestModuleStartTime="00:03.449"
+			timeWallClock="13:29:43"
+			time="00:03.449"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SOLIDWORKSPDMAdministration.Tree10011.KeywordTestAdmin' at 74;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'SOLIDWORKS PDM Administra']/element[@controlid='59420']/?/?/tree[@controlid='1001']//treeitem[@text='Keyword Test (admin)']"
+				itempath=".//treeitem[@text='Keyword Test (admin)']"
+				fullname="AdminRepository.SOLIDWORKSPDMAdministration.Tree10011.KeywordTestAdmin"
+				id="b7a1f33adec5427f988a4802e03cb957"
+				timeout="90000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="95"
+				itemindex="49"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.591"
+			timeRelativeToTestModuleStartTime="00:11.591"
+			timeWallClock="13:29:51"
+			time="00:11.591"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Right Click item 'SOLIDWORKSPDMAdministration.Tree10011.KeywordTestAdmin' at 74;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'SOLIDWORKS PDM Administra']/element[@controlid='59420']/?/?/tree[@controlid='1001']//treeitem[@text='Keyword Test (admin)']"
+				itempath=".//treeitem[@text='Keyword Test (admin)']"
+				fullname="AdminRepository.SOLIDWORKSPDMAdministration.Tree10011.KeywordTestAdmin"
+				id="b7a1f33adec5427f988a4802e03cb957"
+				timeout="90000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="99"
+				itemindex="50"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.090"
+			timeRelativeToTestModuleStartTime="00:12.090"
+			timeWallClock="13:29:52"
+			time="00:12.090"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ConisioAdmin.Refresh' at 41;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='ConisioAdmin']/?/?/menuitem[@accessiblename='Refresh']"
+				itempath="?/?/menuitem[@accessiblename='Refresh']"
+				fullname="AdminRepository.ConisioAdmin.Refresh"
+				id="f9b930717bf24ce78d5882ef9344e493"
+				timeout="60000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="103"
+				itemindex="51"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.609"
+			timeRelativeToTestModuleStartTime="00:12.609"
+			timeWallClock="13:29:52"
+			time="00:12.609"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='Down') on item 'SOLIDWORKSPDMAdministration.Tree10011.Down'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'SOLIDWORKS PDM Administra']/element[@controlid='59420']/?/?/tree[@controlid='1001']/scrollbar[@style='Vertical']/button[@text='Down']"
+				itempath="scrollbar[@style='Vertical']/button[@text='Down']"
+				fullname="AdminRepository.SOLIDWORKSPDMAdministration.Tree10011.Down"
+				id="bc7b07ac9436420f887574d4694c6a45"
+				timeout="90000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="107"
+				itemindex="52"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.904"
+			timeRelativeToTestModuleStartTime="00:12.904"
+			timeWallClock="13:29:52"
+			time="00:12.904"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'AdminRepository.SOLIDWORKSPDMAdministration.Tree10011.Down' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'SOLIDWORKS PDM Administra']/element[@controlid='59420']/?/?/tree[@controlid='1001']/scrollbar[@style='Vertical']/button[@text='Down']"
+				itempath="scrollbar[@style='Vertical']/button[@text='Down']"
+				fullname="AdminRepository.SOLIDWORKSPDMAdministration.Tree10011.Down"
+				id="bc7b07ac9436420f887574d4694c6a45"
+				timeout="90000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="108"
+				loglvl="Success"
+				itemindex="52">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.010"
+			timeRelativeToTestModuleStartTime="00:13.010"
+			timeWallClock="13:29:52"
+			time="00:13.010"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Down item 'SOLIDWORKSPDMAdministration.Tree10011.Down' at 5;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'SOLIDWORKS PDM Administra']/element[@controlid='59420']/?/?/tree[@controlid='1001']/scrollbar[@style='Vertical']/button[@text='Down']"
+				itempath="scrollbar[@style='Vertical']/button[@text='Down']"
+				fullname="AdminRepository.SOLIDWORKSPDMAdministration.Tree10011.Down"
+				id="bc7b07ac9436420f887574d4694c6a45"
+				timeout="90000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="111"
+				itemindex="53"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.574"
+			timeRelativeToTestModuleStartTime="00:13.574"
+			timeWallClock="13:29:53"
+			time="00:13.574"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SOLIDWORKSPDMAdministrationFileVau.Tree1001' at 69;366.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'SOLIDWORKS PDM Administration']/element[@controlid='59420']/?/?/tree[@controlid='1001']"
+				itempath="element[@controlid='59420']/?/?/tree[@controlid='1001']"
+				fullname="AdminRepository.SOLIDWORKSPDMAdministrationFileVau.Tree1001"
+				id="a18e4bfe582a4e8ea094d65cb559ccb0"
+				timeout="60000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="116"
+				itemindex="54"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.139"
+			timeRelativeToTestModuleStartTime="00:14.139"
+			timeWallClock="13:29:54"
+			time="00:14.139"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SOLIDWORKSPDMAdministrationFileVau.Columns' at 7;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'SOLIDWORKS PDM Administration']/element[@controlid='59420']/container[@controlid='130']/tree[@controlid='1001']//treeitem[@text='Columns']"
+				itempath="element[@controlid='59420']/container[@controlid='130']/tree[@controlid='1001']//treeitem[@text='Columns']"
+				fullname="AdminRepository.SOLIDWORKSPDMAdministrationFileVau.Columns"
+				id="d5e076c9137944caa6a6abe6d0f31ec9"
+				timeout="60000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="120"
+				itemindex="55"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.665"
+			timeRelativeToTestModuleStartTime="00:14.665"
+			timeWallClock="13:29:54"
+			time="00:14.665"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Right Click item 'SOLIDWORKSPDMAdministrationFileVau.Columns' at 13;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'SOLIDWORKS PDM Administration']/element[@controlid='59420']/container[@controlid='130']/tree[@controlid='1001']//treeitem[@text='Columns']"
+				itempath="element[@controlid='59420']/container[@controlid='130']/tree[@controlid='1001']//treeitem[@text='Columns']"
+				fullname="AdminRepository.SOLIDWORKSPDMAdministrationFileVau.Columns"
+				id="d5e076c9137944caa6a6abe6d0f31ec9"
+				timeout="60000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="124"
+				itemindex="56"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.189"
+			timeRelativeToTestModuleStartTime="00:15.189"
+			timeWallClock="13:29:55"
+			time="00:15.189"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ContextMenuHash32768.None' at 19;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu/?/?/menuitem"
+				itempath="?/?/menuitem"
+				fullname="AdminRepository.ContextMenuHash32768.None"
+				id="1f420891a29c42449935a91a9990614c"
+				timeout="60000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="128"
+				itemindex="57"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.672"
+			timeRelativeToTestModuleStartTime="00:15.672"
+			timeWallClock="13:29:55"
+			time="00:15.672"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'Test' with focus on 'CustomizableColumnsNewView'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Customizable Columns - New']"
+				itempath="/form[@title>'Customizable Columns - New']"
+				fullname="AdminRepository.CustomizableColumnsNewView.Self"
+				id="f64f1473997f4268afaf7c6f67c4ac00"
+				timeout="30000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="132"
+				itemindex="58"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.942"
+			timeRelativeToTestModuleStartTime="00:16.942"
+			timeWallClock="13:29:56"
+			time="00:16.942"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'CustomizableColumnsNewView.ButtonAdd' at 66;5.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Customizable Columns - New']/button[@text='Add']"
+				itempath="button[@text='Add']"
+				fullname="AdminRepository.CustomizableColumnsNewView.ButtonAdd"
+				id="32923fba681641448cf0f6aa6923976c"
+				timeout="60000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="137"
+				itemindex="59"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.426"
+			timeRelativeToTestModuleStartTime="00:17.426"
+			timeWallClock="13:29:57"
+			time="00:17.426"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'CustomizableColumnsNewView.ButtonAdd' at 54;2.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Customizable Columns - New']/button[@text='Add']"
+				itempath="button[@text='Add']"
+				fullname="AdminRepository.CustomizableColumnsNewView.ButtonAdd"
+				id="32923fba681641448cf0f6aa6923976c"
+				timeout="60000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="141"
+				itemindex="60"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.063"
+			timeRelativeToTestModuleStartTime="00:18.063"
+			timeWallClock="13:29:58"
+			time="00:18.063"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'CustomizableColumnsNewView.CellArchiveServerPath' at 107;15.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Customizable Columns - New']/table[@controlid='1048']/?/?/cell[@columnindex='0' and @rowindex='10']"
+				itempath="table[@controlid='1048']/?/?/cell[@columnindex='0' and @rowindex='10']"
+				fullname="AdminRepository.CustomizableColumnsNewView.CellArchiveServerPath"
+				id="51785af35737448888859c0a0fd32e23"
+				timeout="60000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="145"
+				itemindex="61"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.806"
+			timeRelativeToTestModuleStartTime="00:18.806"
+			timeWallClock="13:29:58"
+			time="00:18.806"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'CustomizableColumnsNewView.CellArchiveServerPath' at 267;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Customizable Columns - New']/table[@controlid='1048']/?/?/cell[@columnindex='0' and @rowindex='10']"
+				itempath="table[@controlid='1048']/?/?/cell[@columnindex='0' and @rowindex='10']"
+				fullname="AdminRepository.CustomizableColumnsNewView.CellArchiveServerPath"
+				id="51785af35737448888859c0a0fd32e23"
+				timeout="60000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="149"
+				itemindex="62"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.091"
+			timeRelativeToTestModuleStartTime="00:19.091"
+			timeWallClock="13:29:59"
+			time="00:19.091"
+			level="Warn"
+			category="Click"
+			errimg="images_StartAUT_e9603287\StartAUT_42092757_rxlog.jpg"
+			errthumb="images_StartAUT_e9603287\StartAUT_42092757_rxlog_thumb.jpg">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+			</message>
+			<metainfo
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="150"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.471"
+			timeRelativeToTestModuleStartTime="00:19.471"
+			timeWallClock="13:29:59"
+			time="00:19.471"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{F15}' with focus on 'CustomizableColumnsNewView'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Customizable Columns - New']"
+				itempath="/form[@title>'Customizable Columns - New']"
+				fullname="AdminRepository.CustomizableColumnsNewView.Self"
+				id="f64f1473997f4268afaf7c6f67c4ac00"
+				timeout="30000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="153"
+				itemindex="63"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.648"
+			timeRelativeToTestModuleStartTime="00:19.648"
+			timeWallClock="13:29:59"
+			time="00:19.648"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'CustomizableColumnsNewView.Delete' at 71;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Customizable Columns - New']/button[@text='Delete']"
+				itempath="button[@text='Delete']"
+				fullname="AdminRepository.CustomizableColumnsNewView.Delete"
+				id="7e9c81247f4a489eb4cf55e664602015"
+				timeout="60000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="158"
+				itemindex="64"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.139"
+			timeRelativeToTestModuleStartTime="00:20.139"
+			timeWallClock="13:30:00"
+			time="00:20.139"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'CustomizableColumnsNewView.Reset' at 47;7.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Customizable Columns - New']/button[@text='Reset']"
+				itempath="button[@text='Reset']"
+				fullname="AdminRepository.CustomizableColumnsNewView.Reset"
+				id="c368f18cc32045c5ab012858bf9031bd"
+				timeout="60000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="162"
+				itemindex="65"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.758"
+			timeRelativeToTestModuleStartTime="00:20.758"
+			timeWallClock="13:30:00"
+			time="00:20.758"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'CustomizableColumnsNewView.ComboBox9003' at 37;6.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Customizable Columns - New']/combobox[@controlid='9003']"
+				itempath="combobox[@controlid='9003']"
+				fullname="AdminRepository.CustomizableColumnsNewView.ComboBox9003"
+				id="345a76a1722849df92c7f8a42f6e2189"
+				timeout="60000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="166"
+				itemindex="66"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.256"
+			timeRelativeToTestModuleStartTime="00:21.256"
+			timeWallClock="13:30:01"
+			time="00:21.256"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'List1000.SomeListItem' at 49;3.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/list[@controlid='1000']/listitem[@index='0']"
+				itempath="listitem[@index='0']"
+				fullname="AdminRepository.List1000.SomeListItem"
+				id="45c3a211ccf34961a7578dc11063f84c"
+				timeout="60000"
+				codefile="E:\Ranorex Tests\New folder\pdm basics test\Admin\StartAUT.cs"
+				codeline="170"
+				itemindex="67"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:29.680"
+			timeRelativeToTestModuleStartTime="00:29.680"
+			timeWallClock="13:30:09"
+			time="00:29.680"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

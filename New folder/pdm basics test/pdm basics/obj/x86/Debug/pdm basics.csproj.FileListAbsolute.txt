@@ -1,0 +1,12 @@
+E:\Ranorex Tests\New folder\pdm basics test\pdm basics\bin\Debug\pdm_basics.rxtmg
+E:\Ranorex Tests\New folder\pdm basics test\pdm basics\bin\Debug\pdm_basics.rxtst
+E:\Ranorex Tests\New folder\pdm basics test\pdm basics\bin\Debug\pdm basics.exe.config
+E:\Ranorex Tests\New folder\pdm basics test\pdm basics\bin\Debug\pdm basics.xml
+E:\Ranorex Tests\New folder\pdm basics test\pdm basics\bin\Debug\pdm basics.exe
+E:\Ranorex Tests\New folder\pdm basics test\pdm basics\bin\Debug\pdm basics.pdb
+E:\Ranorex Tests\New folder\pdm basics test\pdm basics\bin\Debug\Ranorex.Core.Resolver.dll
+E:\Ranorex Tests\New folder\pdm basics test\pdm basics\obj\x86\Debug\pdm basics.csprojAssemblyReference.cache
+E:\Ranorex Tests\New folder\pdm basics test\pdm basics\obj\x86\Debug\pdm basics.csproj.CoreCompileInputs.cache
+E:\Ranorex Tests\New folder\pdm basics test\pdm basics\obj\x86\Debug\pdm basics.csproj.CopyComplete
+E:\Ranorex Tests\New folder\pdm basics test\pdm basics\obj\x86\Debug\pdm basics.exe
+E:\Ranorex Tests\New folder\pdm basics test\pdm basics\obj\x86\Debug\pdm basics.pdb

@@ -1,0 +1,13 @@
+E:\Ranorex Tests\New folder\pdm basics test\Admin\bin\Debug\Admin.rxtmg
+E:\Ranorex Tests\New folder\pdm basics test\Admin\bin\Debug\Admin.rxtst
+E:\Ranorex Tests\New folder\pdm basics test\Admin\bin\Debug\Admin.exe.config
+E:\Ranorex Tests\New folder\pdm basics test\Admin\bin\Debug\Admin.xml
+E:\Ranorex Tests\New folder\pdm basics test\Admin\bin\Debug\Admin.exe
+E:\Ranorex Tests\New folder\pdm basics test\Admin\bin\Debug\Admin.pdb
+E:\Ranorex Tests\New folder\pdm basics test\Admin\bin\Debug\Ranorex.Core.Resolver.dll
+E:\Ranorex Tests\New folder\pdm basics test\Admin\obj\x86\Debug\Admin.csprojAssemblyReference.cache
+E:\Ranorex Tests\New folder\pdm basics test\Admin\obj\x86\Debug\Admin.csproj.CoreCompileInputs.cache
+E:\Ranorex Tests\New folder\pdm basics test\Admin\obj\x86\Debug\Admin.csproj.CopyComplete
+E:\Ranorex Tests\New folder\pdm basics test\Admin\obj\x86\Debug\Admin.exe
+E:\Ranorex Tests\New folder\pdm basics test\Admin\obj\x86\Debug\Admin.pdb
+E:\Ranorex Tests\New folder\pdm basics test\Admin\bin\Debug\RepositoryImages\AdminRepository66e76baa.rximgres
