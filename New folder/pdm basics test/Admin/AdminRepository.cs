@@ -44,6 +44,11 @@ namespace Admin
         AdminRepositoryFolders.Test2PropertiesAppFolder _test2properties;
         AdminRepositoryFolders.CustomizableColumnsNewViewAppFolder _customizablecolumnsnewview;
         AdminRepositoryFolders.CustomizableColumnsTestAppFolder _customizablecolumnstest;
+        AdminRepositoryFolders.ABCPropertiesAppFolder _abcproperties;
+        AdminRepositoryFolders.CreateNewGroupAppFolder _createnewgroup;
+        AdminRepositoryFolders.NewGroup1PropertiesAppFolder _newgroup1properties;
+        AdminRepositoryFolders.AdminPropertiesAppFolder _adminproperties;
+        AdminRepositoryFolders.SkypeForBusinessAppFolder _skypeforbusiness;
 
         /// <summary>
         /// Gets the singleton class instance representing the AdminRepository element repository.
@@ -77,6 +82,11 @@ namespace Admin
             _test2properties = new AdminRepositoryFolders.Test2PropertiesAppFolder(this);
             _customizablecolumnsnewview = new AdminRepositoryFolders.CustomizableColumnsNewViewAppFolder(this);
             _customizablecolumnstest = new AdminRepositoryFolders.CustomizableColumnsTestAppFolder(this);
+            _abcproperties = new AdminRepositoryFolders.ABCPropertiesAppFolder(this);
+            _createnewgroup = new AdminRepositoryFolders.CreateNewGroupAppFolder(this);
+            _newgroup1properties = new AdminRepositoryFolders.NewGroup1PropertiesAppFolder(this);
+            _adminproperties = new AdminRepositoryFolders.AdminPropertiesAppFolder(this);
+            _skypeforbusiness = new AdminRepositoryFolders.SkypeForBusinessAppFolder(this);
         }
 
 #region Variables
@@ -246,6 +256,51 @@ namespace Admin
         public virtual AdminRepositoryFolders.CustomizableColumnsTestAppFolder CustomizableColumnsTest
         {
             get { return _customizablecolumnstest; }
+        }
+
+        /// <summary>
+        /// The ABCProperties folder.
+        /// </summary>
+        [RepositoryFolder("0e28c289-918d-4336-aa2b-85024eaed7b9")]
+        public virtual AdminRepositoryFolders.ABCPropertiesAppFolder ABCProperties
+        {
+            get { return _abcproperties; }
+        }
+
+        /// <summary>
+        /// The CreateNewGroup folder.
+        /// </summary>
+        [RepositoryFolder("8c50a258-c881-4d1b-9f20-ba63b4817a06")]
+        public virtual AdminRepositoryFolders.CreateNewGroupAppFolder CreateNewGroup
+        {
+            get { return _createnewgroup; }
+        }
+
+        /// <summary>
+        /// The NewGroup1Properties folder.
+        /// </summary>
+        [RepositoryFolder("3e5fbaf2-9331-4755-b4a0-b5affa9d925b")]
+        public virtual AdminRepositoryFolders.NewGroup1PropertiesAppFolder NewGroup1Properties
+        {
+            get { return _newgroup1properties; }
+        }
+
+        /// <summary>
+        /// The AdminProperties folder.
+        /// </summary>
+        [RepositoryFolder("3b12a2be-d65e-41c8-9fb4-b579e35eb23e")]
+        public virtual AdminRepositoryFolders.AdminPropertiesAppFolder AdminProperties
+        {
+            get { return _adminproperties; }
+        }
+
+        /// <summary>
+        /// The SkypeForBusiness folder.
+        /// </summary>
+        [RepositoryFolder("7e1c8c98-0a14-492e-92fc-3092e37a2613")]
+        public virtual AdminRepositoryFolders.SkypeForBusinessAppFolder SkypeForBusiness
+        {
+            get { return _skypeforbusiness; }
         }
     }
 
@@ -2720,6 +2775,7 @@ namespace Admin
         public partial class SOLIDWORKSPDMAdministrationFileVauAppFolder : RepoGenBaseFolder
         {
             AdminRepositoryFolders.Form65280Folder _form65280;
+            AdminRepositoryFolders.Tree10011Folder1 _tree10011;
             RepoItemInfo _maximizeInfo;
             TitleBarInfoClass _titlebarInfo;
             RepoItemInfo _pdfcardInfo;
@@ -2727,6 +2783,9 @@ namespace Admin
             RepoItemInfo _tree1001Info;
             RepoItemInfo _usersInfo;
             RepoItemInfo _columnsInfo;
+            RepoItemInfo _someindicatorInfo;
+            RepoItemInfo _groupsInfo;
+            RepoItemInfo _titlebar1Info;
 
             /// <summary>
             /// Creates a new SOLIDWORKSPDMAdministrationFileVau  folder.
@@ -2735,6 +2794,7 @@ namespace Admin
                     base("SOLIDWORKSPDMAdministrationFileVau", "/form[@title>'SOLIDWORKS PDM Administration']", parentFolder, 30000, null, true, "fe88e544-0aeb-4047-b5b6-641ed63774e8", "")
             {
                 _form65280 = new AdminRepositoryFolders.Form65280Folder(this);
+                _tree10011 = new AdminRepositoryFolders.Tree10011Folder1(this);
                 _maximizeInfo = new RepoItemInfo(this, "Maximize", ".//container[@automationid='59648']/form[@automationid='65280']/?/?/button[@name='Maximize']", ".//form[@automationid='65280']/titlebar[@automationid='TitleBar']/button[@name='Maximize']", 30000, null, "bc6a65e2-e295-4c27-b4b9-5d3f177f9f77");
                 _titlebarInfo = new TitleBarInfoClass(this);
                 _pdfcardInfo = new RepoItemInfo(this, "PDFCard", "?/?/form[@controlid='65281']/tree[@controlid='59648']//treeitem[@text='PDF Card']", ".//tree[@controlid='59648']/treeitem[@text>'Administrative Export Fil']/treeitem[@text='File Cards']/treeitem[@text='PDF Card']", 30000, null, "34857a53-bad3-4de7-90f9-37cb8f730303");
@@ -2742,6 +2802,9 @@ namespace Admin
                 _tree1001Info = new RepoItemInfo(this, "Tree1001", "element[@controlid='59420']/?/?/tree[@controlid='1001']", ".//tree[@controlid='1001']", 30000, null, "a18e4bfe-582a-4e8e-a094-d65cb559ccb0");
                 _usersInfo = new RepoItemInfo(this, "Users", "element[@controlid='59420']/?/?/tree[@controlid='1001']//treeitem[@text>'Users and Groups Manageme']/treeitem[@text='Users']", ".//tree[@controlid='1001']/treeitem[@text>'SOLIDWORKS PDM Administra']/treeitem[@text='Walswkqa04587']/treeitem[@text='Keyword Test (admin)']/treeitem[@text>'Users and Groups Manageme']/treeitem[@text='Users']", 30000, null, "dff6bf7e-1e18-410c-a6ea-7b6761978e17");
                 _columnsInfo = new RepoItemInfo(this, "Columns", "element[@controlid='59420']/container[@controlid='130']/tree[@controlid='1001']//treeitem[@text='Columns']", ".//tree[@controlid='1001']/treeitem[@text>'SOLIDWORKS PDM Administra']/treeitem[@text='Walswkqa04587']/treeitem[@text='Keyword Test (admin)']/treeitem[@text='Columns']", 30000, null, "d5e076c9-1379-44ca-a6a6-abe6d0f31ec9");
+                _someindicatorInfo = new RepoItemInfo(this, "SomeIndicator", ".//tree[@controlid='1001']/scrollbar[@style='Vertical']/indicator", ".//tree[@controlid='1001']/scrollbar[@style='Vertical']/indicator", 30000, null, "0a7a049d-33d2-432f-b206-b54cd5ee3a1c");
+                _groupsInfo = new RepoItemInfo(this, "Groups", "element[@controlid='59420']/?/?/tree[@controlid='1001']//treeitem[@text>'Users and Groups Manageme']/treeitem[@text='Groups']", ".//tree[@controlid='1001']/treeitem[@text>'SOLIDWORKS PDM Administra']/treeitem[@text='Walswkqa04587']/treeitem[@text='Keyword Test (admin)']/treeitem[@text>'Users and Groups Manageme']/treeitem[@text='Groups']", 30000, null, "4c6a814a-92ec-4ab3-8a58-5a20ae4c8116");
+                _titlebar1Info = new RepoItemInfo(this, "TitleBar1", "titlebar[@automationid='TitleBar']", "titlebar[@automationid='TitleBar']", 30000, null, "3703ff2b-4315-44f8-9fdf-62a8d9dd6aad");
             }
 
             /// <summary>
@@ -2972,12 +3035,93 @@ namespace Admin
             }
 
             /// <summary>
+            /// The SomeIndicator item.
+            /// </summary>
+            [RepositoryItem("0a7a049d-33d2-432f-b206-b54cd5ee3a1c")]
+            public virtual Ranorex.Indicator SomeIndicator
+            {
+                get
+                {
+                    return _someindicatorInfo.CreateAdapter<Ranorex.Indicator>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SomeIndicator item info.
+            /// </summary>
+            [RepositoryItemInfo("0a7a049d-33d2-432f-b206-b54cd5ee3a1c")]
+            public virtual RepoItemInfo SomeIndicatorInfo
+            {
+                get
+                {
+                    return _someindicatorInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Groups item.
+            /// </summary>
+            [RepositoryItem("4c6a814a-92ec-4ab3-8a58-5a20ae4c8116")]
+            public virtual Ranorex.TreeItem Groups
+            {
+                get
+                {
+                    return _groupsInfo.CreateAdapter<Ranorex.TreeItem>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Groups item info.
+            /// </summary>
+            [RepositoryItemInfo("4c6a814a-92ec-4ab3-8a58-5a20ae4c8116")]
+            public virtual RepoItemInfo GroupsInfo
+            {
+                get
+                {
+                    return _groupsInfo;
+                }
+            }
+
+            /// <summary>
+            /// The TitleBar1 item.
+            /// </summary>
+            [RepositoryItem("3703ff2b-4315-44f8-9fdf-62a8d9dd6aad")]
+            public virtual Ranorex.TitleBar TitleBar1
+            {
+                get
+                {
+                    return _titlebar1Info.CreateAdapter<Ranorex.TitleBar>(true);
+                }
+            }
+
+            /// <summary>
+            /// The TitleBar1 item info.
+            /// </summary>
+            [RepositoryItemInfo("3703ff2b-4315-44f8-9fdf-62a8d9dd6aad")]
+            public virtual RepoItemInfo TitleBar1Info
+            {
+                get
+                {
+                    return _titlebar1Info;
+                }
+            }
+
+            /// <summary>
             /// The Form65280 folder.
             /// </summary>
             [RepositoryFolder("ff88355c-ce54-40d1-b13c-835f854f4519")]
             public virtual AdminRepositoryFolders.Form65280Folder Form65280
             {
                 get { return _form65280; }
+            }
+
+            /// <summary>
+            /// The Tree10011 folder.
+            /// </summary>
+            [RepositoryFolder("4cd134ce-d559-4751-9804-ff2270877e69")]
+            public virtual AdminRepositoryFolders.Tree10011Folder1 Tree10011
+            {
+                get { return _tree10011; }
             }
         }
 
@@ -2993,6 +3137,7 @@ namespace Admin
             RepoItemInfo _includerefreshcacheduringloginInfo;
             RepoItemInfo _text1516Info;
             Text1518InfoClass _text1518Info;
+            RepoItemInfo _adminInfo;
 
             /// <summary>
             /// Creates a new Form65280  folder.
@@ -3006,6 +3151,7 @@ namespace Admin
                 _includerefreshcacheduringloginInfo = new RepoItemInfo(this, "IncludeRefreshCacheDuringLogIn", ".//checkbox[@text>'Include Refresh cache during']", "", 30000, null, "45f743c3-775b-4f2c-9174-f59cd7771280");
                 _text1516Info = new RepoItemInfo(this, "Text1516", ".//text[@controlid='1516']", "", 30000, null, "858c7e92-a1f9-40f9-827c-f31159519d98");
                 _text1518Info = new Text1518InfoClass(this);
+                _adminInfo = new RepoItemInfo(this, "Admin", "tree[@controlid='59648']//treeitem[@text='Admin']", "treeitem[@text='Users']/treeitem[@text='Admin']", 30000, null, "34dd3a41-4a84-44b9-a9df-63c6c45040e2");
             }
 
             /// <summary>
@@ -3245,6 +3391,148 @@ namespace Admin
                     return _text1518Info;
                 }
             }
+
+            /// <summary>
+            /// The Admin item.
+            /// </summary>
+            [RepositoryItem("34dd3a41-4a84-44b9-a9df-63c6c45040e2")]
+            public virtual Ranorex.TreeItem Admin
+            {
+                get
+                {
+                    return _adminInfo.CreateAdapter<Ranorex.TreeItem>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Admin item info.
+            /// </summary>
+            [RepositoryItemInfo("34dd3a41-4a84-44b9-a9df-63c6c45040e2")]
+            public virtual RepoItemInfo AdminInfo
+            {
+                get
+                {
+                    return _adminInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The Tree10011Folder1 folder.
+        /// </summary>
+        [RepositoryFolder("4cd134ce-d559-4751-9804-ff2270877e69")]
+        public partial class Tree10011Folder1 : RepoGenBaseFolder
+        {
+            RepoItemInfo _itemsInfo;
+            RepoItemInfo _usersandgroupsmanagementInfo;
+            RepoItemInfo _adminsystemadministratorInfo;
+
+            /// <summary>
+            /// Creates a new Tree10011  folder.
+            /// </summary>
+            public Tree10011Folder1(RepoGenBaseFolder parentFolder) :
+                    base("Tree10011", "element[@controlid='59420']/container[@controlid='130']/tree[@controlid='1001']", parentFolder, 30000, null, false, "4cd134ce-d559-4751-9804-ff2270877e69", "")
+            {
+                _itemsInfo = new RepoItemInfo(this, "Items", ".//treeitem[@text='Items']", "treeitem[@text='Walswkqa04587']/treeitem[@text='Keyword Test (admin)']/treeitem[@text='Items']", 30000, null, "ce8c1e64-729d-4010-b99e-8de86e342e61");
+                _usersandgroupsmanagementInfo = new RepoItemInfo(this, "UsersAndGroupsManagement", ".//treeitem[@text>'Users and Groups Manageme']", "treeitem[@text='Walswkqa04587']/treeitem[@text='Keyword Test (admin)']/treeitem[@text>'Users and Groups Manageme']", 30000, null, "2bc06d79-8119-44ae-964a-0423e10de246");
+                _adminsystemadministratorInfo = new RepoItemInfo(this, "AdminSystemAdministrator", ".//treeitem[@text>'Users and Groups Manageme']/?/?/treeitem[@text>'Admin (System Administrat']", "", 30000, null, "36c82e5e-f9c8-4e35-8233-a9b8b8d0e56c");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("4cd134ce-d559-4751-9804-ff2270877e69")]
+            public virtual Ranorex.Tree Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Tree>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("4cd134ce-d559-4751-9804-ff2270877e69")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Items item.
+            /// </summary>
+            [RepositoryItem("ce8c1e64-729d-4010-b99e-8de86e342e61")]
+            public virtual Ranorex.TreeItem Items
+            {
+                get
+                {
+                    return _itemsInfo.CreateAdapter<Ranorex.TreeItem>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Items item info.
+            /// </summary>
+            [RepositoryItemInfo("ce8c1e64-729d-4010-b99e-8de86e342e61")]
+            public virtual RepoItemInfo ItemsInfo
+            {
+                get
+                {
+                    return _itemsInfo;
+                }
+            }
+
+            /// <summary>
+            /// The UsersAndGroupsManagement item.
+            /// </summary>
+            [RepositoryItem("2bc06d79-8119-44ae-964a-0423e10de246")]
+            public virtual Ranorex.TreeItem UsersAndGroupsManagement
+            {
+                get
+                {
+                    return _usersandgroupsmanagementInfo.CreateAdapter<Ranorex.TreeItem>(true);
+                }
+            }
+
+            /// <summary>
+            /// The UsersAndGroupsManagement item info.
+            /// </summary>
+            [RepositoryItemInfo("2bc06d79-8119-44ae-964a-0423e10de246")]
+            public virtual RepoItemInfo UsersAndGroupsManagementInfo
+            {
+                get
+                {
+                    return _usersandgroupsmanagementInfo;
+                }
+            }
+
+            /// <summary>
+            /// The AdminSystemAdministrator item.
+            /// </summary>
+            [RepositoryItem("36c82e5e-f9c8-4e35-8233-a9b8b8d0e56c")]
+            public virtual Ranorex.TreeItem AdminSystemAdministrator
+            {
+                get
+                {
+                    return _adminsystemadministratorInfo.CreateAdapter<Ranorex.TreeItem>(true);
+                }
+            }
+
+            /// <summary>
+            /// The AdminSystemAdministrator item info.
+            /// </summary>
+            [RepositoryItemInfo("36c82e5e-f9c8-4e35-8233-a9b8b8d0e56c")]
+            public virtual RepoItemInfo AdminSystemAdministratorInfo
+            {
+                get
+                {
+                    return _adminsystemadministratorInfo;
+                }
+            }
         }
 
         /// <summary>
@@ -3323,6 +3611,7 @@ namespace Admin
             RepoItemInfo _combobox4033Info;
             RepoItemInfo _nextInfo;
             RepoItemInfo _testInfo;
+            RepoItemInfo _text4007Info;
 
             /// <summary>
             /// Creates a new AddUsers  folder.
@@ -3334,6 +3623,7 @@ namespace Admin
                 _combobox4033Info = new RepoItemInfo(this, "ComboBox4033", "combobox[@controlid='4033']", "combobox[@controlid='4033']", 30000, null, "3fc56674-bb33-4802-8d0f-67f3b38fe16e");
                 _nextInfo = new RepoItemInfo(this, "Next", "button[@text='Next >']", "button[@text='Next >']", 30000, null, "e53b34bd-ba63-4bcb-9a46-2578762beb20");
                 _testInfo = new RepoItemInfo(this, "Test", "table[@controlid='4008']/?/?/cell[@columnindex='0']", ".//cell[@columnindex='0']", 30000, null, "708dc943-7066-4fb3-9150-95d0f49a66af");
+                _text4007Info = new RepoItemInfo(this, "Text4007", "text[@controlid='4007']", "text[@controlid='4007']", 30000, null, "280e4ae4-741c-442f-ab07-88b7a9106266");
             }
 
             /// <summary>
@@ -3453,6 +3743,30 @@ namespace Admin
                 get
                 {
                     return _testInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Text4007 item.
+            /// </summary>
+            [RepositoryItem("280e4ae4-741c-442f-ab07-88b7a9106266")]
+            public virtual Ranorex.Text Text4007
+            {
+                get
+                {
+                    return _text4007Info.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Text4007 item info.
+            /// </summary>
+            [RepositoryItemInfo("280e4ae4-741c-442f-ab07-88b7a9106266")]
+            public virtual RepoItemInfo Text4007Info
+            {
+                get
+                {
+                    return _text4007Info;
                 }
             }
         }
@@ -4793,6 +5107,544 @@ namespace Admin
                 get
                 {
                     return _tabpagelist9025Info;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The ABCPropertiesAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("0e28c289-918d-4336-aa2b-85024eaed7b9")]
+        public partial class ABCPropertiesAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _buttonokInfo;
+
+            /// <summary>
+            /// Creates a new ABCProperties  folder.
+            /// </summary>
+            public ABCPropertiesAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("ABCProperties", "/form[@title='ABC - Properties']", parentFolder, 30000, null, true, "0e28c289-918d-4336-aa2b-85024eaed7b9", "")
+            {
+                _buttonokInfo = new RepoItemInfo(this, "ButtonOK", "button[@controlid='1']", "button[@controlid='1']", 30000, null, "42ec8d97-a9cb-41f4-9f90-e7f1b351a9e9");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("0e28c289-918d-4336-aa2b-85024eaed7b9")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("0e28c289-918d-4336-aa2b-85024eaed7b9")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ButtonOK item.
+            /// </summary>
+            [RepositoryItem("42ec8d97-a9cb-41f4-9f90-e7f1b351a9e9")]
+            public virtual Ranorex.Button ButtonOK
+            {
+                get
+                {
+                    return _buttonokInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ButtonOK item info.
+            /// </summary>
+            [RepositoryItemInfo("42ec8d97-a9cb-41f4-9f90-e7f1b351a9e9")]
+            public virtual RepoItemInfo ButtonOKInfo
+            {
+                get
+                {
+                    return _buttonokInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The CreateNewGroupAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("8c50a258-c881-4d1b-9f20-ba63b4817a06")]
+        public partial class CreateNewGroupAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _text4045Info;
+            RepoItemInfo _createnewgroupInfo;
+            RepoItemInfo _nextInfo;
+
+            /// <summary>
+            /// Creates a new CreateNewGroup  folder.
+            /// </summary>
+            public CreateNewGroupAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("CreateNewGroup", "/form[@title='Create New Group']", parentFolder, 30000, null, true, "8c50a258-c881-4d1b-9f20-ba63b4817a06", "")
+            {
+                _text4045Info = new RepoItemInfo(this, "Text4045", "?/?/text[@controlid='4045']", "?/?/text[@controlid='4045']", 30000, null, "d6ba5f6a-59d6-4290-9c26-3c67db52a7a1");
+                _createnewgroupInfo = new RepoItemInfo(this, "CreateNewGroup", "form[@name='Create New Group']", "form[@name='Create New Group']", 30000, null, "de75df7f-ec0c-40c5-9763-acdc8cc51961");
+                _nextInfo = new RepoItemInfo(this, "Next", "button[@text='Next >']", "button[@text='Next >']", 30000, null, "27d3d325-e224-42f6-97cb-ae5120ad4c16");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("8c50a258-c881-4d1b-9f20-ba63b4817a06")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("8c50a258-c881-4d1b-9f20-ba63b4817a06")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Text4045 item.
+            /// </summary>
+            [RepositoryItem("d6ba5f6a-59d6-4290-9c26-3c67db52a7a1")]
+            public virtual Ranorex.Text Text4045
+            {
+                get
+                {
+                    return _text4045Info.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Text4045 item info.
+            /// </summary>
+            [RepositoryItemInfo("d6ba5f6a-59d6-4290-9c26-3c67db52a7a1")]
+            public virtual RepoItemInfo Text4045Info
+            {
+                get
+                {
+                    return _text4045Info;
+                }
+            }
+
+            /// <summary>
+            /// The CreateNewGroup item.
+            /// </summary>
+            [RepositoryItem("de75df7f-ec0c-40c5-9763-acdc8cc51961")]
+            public virtual Ranorex.Form CreateNewGroup
+            {
+                get
+                {
+                    return _createnewgroupInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The CreateNewGroup item info.
+            /// </summary>
+            [RepositoryItemInfo("de75df7f-ec0c-40c5-9763-acdc8cc51961")]
+            public virtual RepoItemInfo CreateNewGroupInfo
+            {
+                get
+                {
+                    return _createnewgroupInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Next item.
+            /// </summary>
+            [RepositoryItem("27d3d325-e224-42f6-97cb-ae5120ad4c16")]
+            public virtual Ranorex.Button Next
+            {
+                get
+                {
+                    return _nextInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Next item info.
+            /// </summary>
+            [RepositoryItemInfo("27d3d325-e224-42f6-97cb-ae5120ad4c16")]
+            public virtual RepoItemInfo NextInfo
+            {
+                get
+                {
+                    return _nextInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The NewGroup1PropertiesAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("3e5fbaf2-9331-4755-b4a0-b5affa9d925b")]
+        public partial class NewGroup1PropertiesAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _newgroup1propertiesInfo;
+            RepoItemInfo _buttonokInfo;
+
+            /// <summary>
+            /// Creates a new NewGroup1Properties  folder.
+            /// </summary>
+            public NewGroup1PropertiesAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("NewGroup1Properties", "/form[@title='New Group1 - Properties']", parentFolder, 30000, null, true, "3e5fbaf2-9331-4755-b4a0-b5affa9d925b", "")
+            {
+                _newgroup1propertiesInfo = new RepoItemInfo(this, "NewGroup1Properties", "form[@name='New Group1 - Properties']", "form[@name='New Group1 - Properties']", 30000, null, "6896f3ad-4b1e-4eb6-b377-52cf58af69fb");
+                _buttonokInfo = new RepoItemInfo(this, "ButtonOK", "button[@text='OK']", "button[@text='OK']", 30000, null, "b31831db-6cfd-4022-b78c-d69d8edca858");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("3e5fbaf2-9331-4755-b4a0-b5affa9d925b")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("3e5fbaf2-9331-4755-b4a0-b5affa9d925b")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The NewGroup1Properties item.
+            /// </summary>
+            [RepositoryItem("6896f3ad-4b1e-4eb6-b377-52cf58af69fb")]
+            public virtual Ranorex.Form NewGroup1Properties
+            {
+                get
+                {
+                    return _newgroup1propertiesInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The NewGroup1Properties item info.
+            /// </summary>
+            [RepositoryItemInfo("6896f3ad-4b1e-4eb6-b377-52cf58af69fb")]
+            public virtual RepoItemInfo NewGroup1PropertiesInfo
+            {
+                get
+                {
+                    return _newgroup1propertiesInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ButtonOK item.
+            /// </summary>
+            [RepositoryItem("b31831db-6cfd-4022-b78c-d69d8edca858")]
+            public virtual Ranorex.Button ButtonOK
+            {
+                get
+                {
+                    return _buttonokInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ButtonOK item info.
+            /// </summary>
+            [RepositoryItemInfo("b31831db-6cfd-4022-b78c-d69d8edca858")]
+            public virtual RepoItemInfo ButtonOKInfo
+            {
+                get
+                {
+                    return _buttonokInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The AdminPropertiesAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("3b12a2be-d65e-41c8-9fb4-b579e35eb23e")]
+        public partial class AdminPropertiesAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _adminpropertiesInfo;
+            RepoItemInfo _pdmdatasettosagarInfo;
+            RepoItemInfo _assignedfolderpermissionsInfo;
+            RepoItemInfo _ckeywordtestInfo;
+            RepoItemInfo _buttonokInfo;
+
+            /// <summary>
+            /// Creates a new AdminProperties  folder.
+            /// </summary>
+            public AdminPropertiesAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("AdminProperties", "/form[@title='Admin - Properties']", parentFolder, 30000, null, true, "3b12a2be-d65e-41c8-9fb4-b579e35eb23e", "")
+            {
+                _adminpropertiesInfo = new RepoItemInfo(this, "AdminProperties", "form[@name='Admin - Properties']", "form[@name='Admin - Properties']", 30000, null, "32a608b3-f53a-4d3f-b6e1-0d0e9fe4d742");
+                _pdmdatasettosagarInfo = new RepoItemInfo(this, "PDMDatasetToSagar", "tree[@controlid='4015']/?/?/treeitem[@text='PDM_Dataset_ToSagar']", ".//treeitem[@text='PDM_Dataset_ToSagar']", 30000, null, "589b6fa8-0739-4d33-8777-e767ab0c81f7");
+                _assignedfolderpermissionsInfo = new RepoItemInfo(this, "AssignedFolderPermissions", "?/?/tabpage[@index='1']", "?/?/tabpage[@index='1']", 30000, null, "1d2b2039-71c9-4dee-b09a-2320c5971824");
+                _ckeywordtestInfo = new RepoItemInfo(this, "CKeywordTest", "table[@controlid='4014']/?/?/cell[@text='C:\\Keyword Test']", ".//cell[@text='C:\\Keyword Test']", 30000, null, "11e26944-8fa1-4d72-b7e6-cc51e429da5a");
+                _buttonokInfo = new RepoItemInfo(this, "ButtonOK", "button[@text='OK']", "button[@text='OK']", 30000, null, "e4cd5bdb-2d1f-4c95-a280-c04086fab665");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("3b12a2be-d65e-41c8-9fb4-b579e35eb23e")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("3b12a2be-d65e-41c8-9fb4-b579e35eb23e")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The AdminProperties item.
+            /// </summary>
+            [RepositoryItem("32a608b3-f53a-4d3f-b6e1-0d0e9fe4d742")]
+            public virtual Ranorex.Form AdminProperties
+            {
+                get
+                {
+                    return _adminpropertiesInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The AdminProperties item info.
+            /// </summary>
+            [RepositoryItemInfo("32a608b3-f53a-4d3f-b6e1-0d0e9fe4d742")]
+            public virtual RepoItemInfo AdminPropertiesInfo
+            {
+                get
+                {
+                    return _adminpropertiesInfo;
+                }
+            }
+
+            /// <summary>
+            /// The PDMDatasetToSagar item.
+            /// </summary>
+            [RepositoryItem("589b6fa8-0739-4d33-8777-e767ab0c81f7")]
+            public virtual Ranorex.TreeItem PDMDatasetToSagar
+            {
+                get
+                {
+                    return _pdmdatasettosagarInfo.CreateAdapter<Ranorex.TreeItem>(true);
+                }
+            }
+
+            /// <summary>
+            /// The PDMDatasetToSagar item info.
+            /// </summary>
+            [RepositoryItemInfo("589b6fa8-0739-4d33-8777-e767ab0c81f7")]
+            public virtual RepoItemInfo PDMDatasetToSagarInfo
+            {
+                get
+                {
+                    return _pdmdatasettosagarInfo;
+                }
+            }
+
+            /// <summary>
+            /// The AssignedFolderPermissions item.
+            /// </summary>
+            [RepositoryItem("1d2b2039-71c9-4dee-b09a-2320c5971824")]
+            public virtual Ranorex.TabPage AssignedFolderPermissions
+            {
+                get
+                {
+                    return _assignedfolderpermissionsInfo.CreateAdapter<Ranorex.TabPage>(true);
+                }
+            }
+
+            /// <summary>
+            /// The AssignedFolderPermissions item info.
+            /// </summary>
+            [RepositoryItemInfo("1d2b2039-71c9-4dee-b09a-2320c5971824")]
+            public virtual RepoItemInfo AssignedFolderPermissionsInfo
+            {
+                get
+                {
+                    return _assignedfolderpermissionsInfo;
+                }
+            }
+
+            /// <summary>
+            /// The CKeywordTest item.
+            /// </summary>
+            [RepositoryItem("11e26944-8fa1-4d72-b7e6-cc51e429da5a")]
+            public virtual Ranorex.Cell CKeywordTest
+            {
+                get
+                {
+                    return _ckeywordtestInfo.CreateAdapter<Ranorex.Cell>(true);
+                }
+            }
+
+            /// <summary>
+            /// The CKeywordTest item info.
+            /// </summary>
+            [RepositoryItemInfo("11e26944-8fa1-4d72-b7e6-cc51e429da5a")]
+            public virtual RepoItemInfo CKeywordTestInfo
+            {
+                get
+                {
+                    return _ckeywordtestInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ButtonOK item.
+            /// </summary>
+            [RepositoryItem("e4cd5bdb-2d1f-4c95-a280-c04086fab665")]
+            public virtual Ranorex.Button ButtonOK
+            {
+                get
+                {
+                    return _buttonokInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ButtonOK item info.
+            /// </summary>
+            [RepositoryItemInfo("e4cd5bdb-2d1f-4c95-a280-c04086fab665")]
+            public virtual RepoItemInfo ButtonOKInfo
+            {
+                get
+                {
+                    return _buttonokInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The SkypeForBusinessAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("7e1c8c98-0a14-492e-92fc-3092e37a2613")]
+        public partial class SkypeForBusinessAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _idcontactphotoInfo;
+            RepoItemInfo _netuisimplebuttonInfo;
+
+            /// <summary>
+            /// Creates a new SkypeForBusiness  folder.
+            /// </summary>
+            public SkypeForBusinessAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("SkypeForBusiness", "/form[@title='Skype for Business ']", parentFolder, 30000, null, true, "7e1c8c98-0a14-492e-92fc-3092e37a2613", "")
+            {
+                _idcontactphotoInfo = new RepoItemInfo(this, "IdContactPhoto", ".//container[@automationid='idVirtualList']/listitem[@name=' V Abilash Away 5 mins  ']/button[@classname='NetUISimpleButton']/button[1]/button[@automationid='idContactPhoto']", ".//button[@automationid='idContactPhoto' and @name='V Abilash']", 30000, null, "c2910d55-ca4e-4bb3-b456-077208e2e91f");
+                _netuisimplebuttonInfo = new RepoItemInfo(this, "NetUISimpleButton", ".//container[@automationid='idVirtualList']/listitem[@name>' YADAV Chitransh (INTERN)']/button[@classname='NetUISimpleButton']/button[1]", ".//listitem[@name>' YADAV Chitransh (INTERN)']/button[@classname='NetUISimpleButton']/button[1]", 30000, null, "eae6111a-dc13-41dc-b4fc-8ff5d18b7a81");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("7e1c8c98-0a14-492e-92fc-3092e37a2613")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("7e1c8c98-0a14-492e-92fc-3092e37a2613")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The IdContactPhoto item.
+            /// </summary>
+            [RepositoryItem("c2910d55-ca4e-4bb3-b456-077208e2e91f")]
+            public virtual Ranorex.Button IdContactPhoto
+            {
+                get
+                {
+                    return _idcontactphotoInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The IdContactPhoto item info.
+            /// </summary>
+            [RepositoryItemInfo("c2910d55-ca4e-4bb3-b456-077208e2e91f")]
+            public virtual RepoItemInfo IdContactPhotoInfo
+            {
+                get
+                {
+                    return _idcontactphotoInfo;
+                }
+            }
+
+            /// <summary>
+            /// The NetUISimpleButton item.
+            /// </summary>
+            [RepositoryItem("eae6111a-dc13-41dc-b4fc-8ff5d18b7a81")]
+            public virtual Ranorex.Button NetUISimpleButton
+            {
+                get
+                {
+                    return _netuisimplebuttonInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The NetUISimpleButton item info.
+            /// </summary>
+            [RepositoryItemInfo("eae6111a-dc13-41dc-b4fc-8ff5d18b7a81")]
+            public virtual RepoItemInfo NetUISimpleButtonInfo
+            {
+                get
+                {
+                    return _netuisimplebuttonInfo;
                 }
             }
         }

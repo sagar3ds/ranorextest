@@ -171,6 +171,18 @@
       <UserCode>true</UserCode>
       <id>1d38d42c-9404-4892-8a24-1a3eb6ee50fe</id>
     </Compile>
+    <Compile Include="Users.cs">
+      <BoundTo>62146a07-f8e7-4154-bbf1-d70f2d7d9769</BoundTo>
+      <DependentUpon>Users.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c7c1efdb-1b07-4c15-b9b0-baee9fa036a1</id>
+    </Compile>
+    <Compile Include="Users.UserCode.cs">
+      <BoundTo>62146a07-f8e7-4154-bbf1-d70f2d7d9769</BoundTo>
+      <DependentUpon>Users.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>07ea2353-270c-4bc9-b895-2d1838dc535d</id>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="AdminRepository.rximg">
@@ -201,6 +213,11 @@
       <BoundTo>ff931bac-1e1f-4720-9dcd-87ce0e61042c</BoundTo>
       <id>09a3dd21-81ea-4eb3-a1a6-c61505c50706</id>
       <recordtableid>04ab11f5-d7c7-4bbb-8874-2282e5258798</recordtableid>
+    </None>
+    <None Include="Users.rxrec">
+      <BoundTo>ff931bac-1e1f-4720-9dcd-87ce0e61042c</BoundTo>
+      <id>62146a07-f8e7-4154-bbf1-d70f2d7d9769</id>
+      <recordtableid>1752aba7-77a6-44a4-9b68-5fe5f17dc533</recordtableid>
     </None>
   </ItemGroup>
   <ItemGroup>
